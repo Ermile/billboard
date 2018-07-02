@@ -1,2 +1,58 @@
+body{background-image:url("https://ermile.com/static/images/pattern/shattered_@2X.png");background-attachment:fixed;height:100%;margin:0;padding:0;}
+.wrapper{height:90vh;}
+.container{width:90%;margin:0 auto;}
+.ermile a{display:block;width:100%;}
+.ermile img{width:100%;margin:0 auto;vertical-align:middle;display:block;}
+.box{margin:0em auto ;width:70%;height:100%;}
+.box h1{    color:#10a1a6;font-size:4em;margin:0;display:inline-block;position:relative;line-height:2.5em;font-weight:600;}
+.box h2{margin:0 .5em;display:inline-block;color:#414141;}
+.box h3{color:#888;margin:0 .5em;}
+.box ul{list-style:none;padding:0;}
+.box a{width:100%;display:block;}
+.box li{font-size:.7em;width:100%;text-align:right;margin:0em auto;position:relative;float:left;}
+footer{padding:20px 0;opacity:0.7;font-size:1.5em;background:#FFF;box-shadow:1px 1px 5px 0 #C4C5C6;position:fixed;bottom:0;right:0;left:0;}
+footer a{color:#00b6bb;}
+footer span{font-size:0.7em;}
+.footer-ermile{float:left;}
+.ermile img{width:500px;}
+
+@media all and (min-width:1400px) {
+	.ermile img{width:60%;}
+	.box a h2,.box a h1{ display:inline-block;text-align:right;}
+	.box h1{font-size:4em;}
+	.box h2{font-size:2.2em;}
+	.box h3{font-size:2em;}
+	.box{text-align:right;}
+}
+
+@media all and (max-width:1024px){
+	.box h1{font-size:4em;}
+	.box h2{font-size:2em;}
+	.box h3{font-size:1.5em;}
+}
+
+@media all and (min-width:768px) and (max-width:959px) {
+	.box a h1{font-size:3em;line-height:2em;}
+	.box h3{margin:0 1em;width:100%;margin-bottom:.2em;}
+	.ermile img{width:100%;}
+	footer{display:none;}
+}
+
+
+@media all and (max-width:767px){
+	.ermile img{width:40%;margin:1em auto;}
+	.box a h1,.box a h2{display:block;text-align:center;}
+	.box h3{width:70%;text-align:center;margin:0 auto;}
+	footer{display:none;}
+}
+
+@media all and (max-width:350px) {
+	.box h1{font-size:4em;}
+	.box h2{font-size:2.2em;}
+	.box h3{font-size:2em;width:100%;}
+	.boxh1, h2{display:inline-block;}
+	footer{display:none;}
+}
+
 
 
