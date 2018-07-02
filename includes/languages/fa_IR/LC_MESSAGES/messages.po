@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dashSample - Persian\n"
-"POT-Creation-Date: 2018-07-03 01:07+0430\n"
-"PO-Revision-Date: 2018-07-03 01:08+0430\n"
+"POT-Creation-Date: 2018-07-03 01:10+0430\n"
+"PO-Revision-Date: 2018-07-03 01:11+0430\n"
 "Last-Translator: Reza <rm.biqarar@gmail.com>\n"
 "Language-Team: Ermile <J.Evazzadeh@gmail.com>\n"
 "Language: fa_IR\n"
@@ -29,7 +29,7 @@ msgstr "ارمایل"
 
 #: billboard/content/view.php:10
 msgid "Software Solution Designer."
-msgstr ""
+msgstr "ارائه‌دهنده‌ی راه‌کارهای مدرن نرم‌افزاری"
 
 #: billboard/content/view.php:11 dash/lib/engine/view.php:73
 msgid "As easy as ABC is our slogan!"
@@ -37,7 +37,7 @@ msgstr "کاری نداره شعار ماست!"
 
 #: billboard/content/view.php:12
 msgid "Ermile Online Billboard"
-msgstr ""
+msgstr "بیلبورد آنلاین ارمایل"
 
 #: billboard/includes/languages/trans_addons.php:8
 #: dash/addons/includes/languages/trans_dash.php:417
@@ -8558,8 +8558,6 @@ msgid "users"
 msgstr "کاربران"
 
 #: dash/addons/includes/languages/trans_static.php:403
-#, fuzzy
-#| msgid "Displayname"
 msgid "displayname"
 msgstr "نام برای نمایش عمومی"
 
@@ -11155,10 +11153,8 @@ msgid "This location is not exist!"
 msgstr "این مکان وجود ندارد!"
 
 #: dash/lib/utility/git.php:188 dash/lib/utility/git.php:237
-#, fuzzy
-#| msgid "Save change"
 msgid "NO change!"
-msgstr "ذخیره‌کردن تغییرات"
+msgstr "بدون تغییر!"
 
 #: dash/lib/utility/google.php:122
 msgid "Invalid access token"
