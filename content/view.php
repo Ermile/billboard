@@ -12,6 +12,13 @@ class view
 		\dash\data::page_title(T_('Ermile Online Billboard'));
 		\dash\data::page_special(true);
 		\dash\data::page_desc(\dash\data::site_desc(). ' | '. \dash\data::site_slogan());
+
+		$myHost = '';
+		if(function_exists("gethostname"))
+		{
+			$myHost = gethostname();
+		}
+		\dash\data::myHost($myHost);
 	}
 }
 ?>
