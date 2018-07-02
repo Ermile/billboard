@@ -13,4 +13,7 @@ self::$language =
 	'list'    => ['fa','en',],
 ];
 
+
+self::$config['debug'] = true;
+
 ?>
