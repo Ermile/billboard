@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dashSample - Persian\n"
-"POT-Creation-Date: 2018-07-03 01:10+0430\n"
-"PO-Revision-Date: 2018-07-03 01:11+0430\n"
+"POT-Creation-Date: 2018-07-03 01:18+0430\n"
+"PO-Revision-Date: 2018-07-03 01:18+0430\n"
 "Last-Translator: Reza <rm.biqarar@gmail.com>\n"
 "Language-Team: Ermile <J.Evazzadeh@gmail.com>\n"
 "Language: fa_IR\n"
@@ -20,6 +20,7 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: billboard/content/view.php:9 billboard/includes/languages/trans_addons.php:153
+#: billboard/includes/languages/trans_dash.php:239
 #: billboard/includes/languages/trans_twig.php:35
 #: dash/addons/includes/languages/trans_dash.php:352
 #: dash/addons/includes/languages/trans_static.php:58
@@ -40,164 +41,196 @@ msgid "Ermile Online Billboard"
 msgstr "بیلبورد آنلاین ارمایل"
 
 #: billboard/includes/languages/trans_addons.php:8
+#: billboard/includes/languages/trans_dash.php:8
 #: dash/addons/includes/languages/trans_dash.php:417
 msgid "YOUR API KEY"
 msgstr "کلید اتصال شما"
 
 #: billboard/includes/languages/trans_addons.php:9
+#: billboard/includes/languages/trans_dash.php:9
 #: dash/addons/includes/languages/trans_dash.php:418
 msgid "GENERATE NEW API KEY"
 msgstr "ساخت کلید اتصال جدید"
 
 #: billboard/includes/languages/trans_addons.php:10
+#: billboard/includes/languages/trans_dash.php:10
 #: dash/addons/includes/languages/trans_dash.php:419
 msgid "Get new API KEY"
 msgstr "دریافت کلید اتصال جدید"
 
 #: billboard/includes/languages/trans_addons.php:13
+#: billboard/includes/languages/trans_dash.php:13
 #: dash/addons/includes/languages/trans_dash.php:99
 msgid "Name"
 msgstr "نام"
 
 #: billboard/includes/languages/trans_addons.php:14
+#: billboard/includes/languages/trans_dash.php:14
 #: dash/addons/includes/languages/trans_dash.php:447
 msgid "plan"
 msgstr "پلن"
 
 #: billboard/includes/languages/trans_addons.php:15
+#: billboard/includes/languages/trans_dash.php:15
 #: dash/addons/includes/languages/trans_dash.php:448
 msgid "Start plan"
 msgstr "زمان شروع پلن"
 
 #: billboard/includes/languages/trans_addons.php:16
+#: billboard/includes/languages/trans_dash.php:16
 #: dash/addons/includes/languages/trans_dash.php:449
 msgid "Active member"
 msgstr "اعضاء‌ فعال"
 
 #: billboard/includes/languages/trans_addons.php:17
+#: billboard/includes/languages/trans_dash.php:17
 #: dash/addons/includes/languages/trans_dash.php:440
 msgid "Usage"
 msgstr "میزان مصرف"
 
 #: billboard/includes/languages/trans_addons.php:18
+#: billboard/includes/languages/trans_dash.php:18
 #: dash/addons/includes/languages/trans_dash.php:450
 msgid "You are not have billing detail yet!"
 msgstr "هیچ تراکنش مالی برای شما یافت نشد!"
 
 #: billboard/includes/languages/trans_addons.php:21
+#: billboard/includes/languages/trans_dash.php:21
 #: dash/addons/includes/languages/trans_dash.php:431
 msgid "Charge your account"
 msgstr "شارژ حساب کاربری"
 
 #: billboard/includes/languages/trans_addons.php:22
+#: billboard/includes/languages/trans_dash.php:22
 #: dash/addons/includes/languages/trans_dash.php:432
 msgid "Choose a gateway and enter an amount to charge your account"
 msgstr "درگاه پرداخت خود را انتخاب کنید و میزان شارژ حساب کاربری خود را وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:23
+#: billboard/includes/languages/trans_dash.php:23
 #: dash/addons/includes/languages/trans_dash.php:433
 msgid "Parsian"
 msgstr "پارسیان"
 
 #: billboard/includes/languages/trans_addons.php:24
+#: billboard/includes/languages/trans_dash.php:24
 #: dash/addons/includes/languages/trans_dash.php:434
 msgid "Amount"
 msgstr "مقدار"
 
 #: billboard/includes/languages/trans_addons.php:25
+#: billboard/includes/languages/trans_dash.php:25
 #: dash/addons/includes/languages/trans_dash.php:435
 msgid "Checkout"
 msgstr "پرداخت"
 
 #: billboard/includes/languages/trans_addons.php:26
+#: billboard/includes/languages/trans_dash.php:26
 #: dash/addons/includes/languages/trans_dash.php:375
 msgid "Promo code"
 msgstr "کد تخفیف"
 
 #: billboard/includes/languages/trans_addons.php:27
+#: billboard/includes/languages/trans_dash.php:27
 #: dash/addons/includes/languages/trans_dash.php:436
 msgid "If you have a promo code, please enter it below to receive your credit."
 msgstr "اگر کد تخفیف دارید، برای دریافت اعتبار در کادر زیر وارد کنید."
 
 #: billboard/includes/languages/trans_addons.php:28
+#: billboard/includes/languages/trans_dash.php:28
 #: dash/addons/includes/languages/trans_dash.php:381
 msgid "Promo Code"
 msgstr "کد تخفیف"
 
 #: billboard/includes/languages/trans_addons.php:29
+#: billboard/includes/languages/trans_dash.php:29
 #: dash/addons/includes/languages/trans_dash.php:437
 msgid "Apply Code"
 msgstr "اعمال کد"
 
 #: billboard/includes/languages/trans_addons.php:30
+#: billboard/includes/languages/trans_dash.php:30
 #: dash/addons/includes/languages/trans_dash.php:438
 msgid "Your credit"
 msgstr "اعتبار شما"
 
 #: billboard/includes/languages/trans_addons.php:31
+#: billboard/includes/languages/trans_dash.php:31
 #: dash/addons/includes/languages/trans_dash.php:439
 msgid "Click to check detail"
 msgstr "برای بررسی جزئیات کلیک کنید"
 
 #: billboard/includes/languages/trans_addons.php:32
+#: billboard/includes/languages/trans_dash.php:32
 #: dash/addons/includes/languages/trans_dash.php:441
 msgid "Billing History"
 msgstr "تاریخچه پرداخت‌ها"
 
 #: billboard/includes/languages/trans_addons.php:33
+#: billboard/includes/languages/trans_dash.php:33
 #: dash/addons/includes/languages/trans_dash.php:159
 #: dash/addons/includes/languages/trans_static.php:198
 msgid "Title"
 msgstr "عنوان"
 
 #: billboard/includes/languages/trans_addons.php:34
+#: billboard/includes/languages/trans_dash.php:34
 #: dash/addons/includes/languages/trans_dash.php:141
 #: dash/addons/includes/languages/trans_static.php:199
 msgid "Date"
 msgstr "تاریخ"
 
 #: billboard/includes/languages/trans_addons.php:35
+#: billboard/includes/languages/trans_dash.php:35
 #: dash/addons/includes/languages/trans_dash.php:189
 #: dash/addons/includes/languages/trans_static.php:116
 msgid "Value"
 msgstr "مقدار"
 
 #: billboard/includes/languages/trans_addons.php:36
+#: billboard/includes/languages/trans_dash.php:36
 #: dash/addons/includes/languages/trans_dash.php:442
 msgid "Budget After"
 msgstr "بودجه"
 
 #: billboard/includes/languages/trans_addons.php:37
+#: billboard/includes/languages/trans_dash.php:37
 #: dash/addons/includes/languages/trans_dash.php:443
 msgid "Invoice"
 msgstr "فاکتور"
 
 #: billboard/includes/languages/trans_addons.php:38
+#: billboard/includes/languages/trans_dash.php:38
 #: dash/addons/includes/languages/trans_dash.php:444
 msgid "You are not have payment history yet!"
 msgstr "هیچ تراکنش مالی برای شما یافت نشد!"
 
 #: billboard/includes/languages/trans_addons.php:41
+#: billboard/includes/languages/trans_dash.php:41
 #: dash/addons/includes/languages/trans_dash.php:426
 msgid "Factor of team"
 msgstr "فاکتور تیم"
 
 #: billboard/includes/languages/trans_addons.php:42
+#: billboard/includes/languages/trans_dash.php:42
 #: dash/addons/includes/languages/trans_dash.php:427
 msgid "Total"
 msgstr "مجموع"
 
 #: billboard/includes/languages/trans_addons.php:43
+#: billboard/includes/languages/trans_dash.php:43
 #: dash/addons/includes/languages/trans_dash.php:428
 msgid "Price"
 msgstr "قیمت"
 
 #: billboard/includes/languages/trans_addons.php:44
+#: billboard/includes/languages/trans_dash.php:44
 #: dash/addons/includes/languages/trans_dash.php:389
 msgid "Count"
 msgstr "تعداد"
 
 #: billboard/includes/languages/trans_addons.php:47
+#: billboard/includes/languages/trans_dash.php:47
 #: dash/addons/includes/languages/trans_dash.php:422
 #: dash/addons/includes/languages/trans_static.php:102
 #: dash/addons/includes/languages/trans_static.php:384
@@ -207,11 +240,13 @@ msgid "Profile"
 msgstr "پروفایل"
 
 #: billboard/includes/languages/trans_addons.php:48
+#: billboard/includes/languages/trans_dash.php:48
 #: dash/addons/includes/languages/trans_dash.php:423
 msgid "Billing"
 msgstr "مالی"
 
 #: billboard/includes/languages/trans_addons.php:51
+#: billboard/includes/languages/trans_dash.php:51
 #: dash/addons/content_account/home/view.php:9
 #: dash/addons/content_cp/email/home/view.php:16
 #: dash/addons/content_cp/email/send/view.php:16
@@ -241,6 +276,7 @@ msgid "Enter a valid family from 3 to 50 character"
 msgstr "نام خانوادگی معتبری بین ۳ تا ۵۰ کاراکتر وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:58
+#: billboard/includes/languages/trans_dash.php:88
 #: dash/addons/includes/languages/trans_dash.php:224
 msgid "Display name"
 msgstr "نام برای نمایش"
@@ -250,6 +286,7 @@ msgid "Enter a valid team position from 3 to 50 character"
 msgstr "موقعیت شغلی مناسبی بین ۳ تا ۳۰ کاراکتر وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:60
+#: billboard/includes/languages/trans_dash.php:314
 #: dash/addons/includes/languages/trans_dash.php:330
 msgid "allowed extentions jpg, png. Max 1000Kb"
 msgstr "پسوند مجاز JPG، PNG حداکثر ۱۰۰۰ کیلوبایت"
@@ -264,6 +301,7 @@ msgid "Your mobile"
 msgstr "تلفن همراه شما"
 
 #: billboard/includes/languages/trans_addons.php:63
+#: billboard/includes/languages/trans_dash.php:747
 #: dash/addons/includes/languages/trans_dash.php:725
 #: dash/addons/includes/languages/trans_static.php:408
 msgid "email"
@@ -282,11 +320,13 @@ msgid "Please select one unit for default"
 msgstr "لطفا یکی از واحدهای مالی را انتخاب کنید"
 
 #: billboard/includes/languages/trans_addons.php:67
+#: billboard/includes/languages/trans_dash.php:212
 #: dash/addons/includes/languages/trans_dash.php:118
 msgid "Toman"
 msgstr "تومان"
 
 #: billboard/includes/languages/trans_addons.php:68
+#: billboard/includes/languages/trans_dash.php:653
 #: dash/addons/includes/languages/trans_dash.php:507
 msgid "$"
 msgstr "$"
@@ -300,36 +340,43 @@ msgid "Update profile"
 msgstr "به‌روزرسانی پروفایل"
 
 #: billboard/includes/languages/trans_addons.php:73
+#: billboard/includes/languages/trans_dash.php:117
 #: dash/addons/includes/languages/trans_dash.php:356
 msgid "Referral Program"
 msgstr "برنامه معرفی"
 
 #: billboard/includes/languages/trans_addons.php:74
+#: billboard/includes/languages/trans_dash.php:118
 #: dash/addons/includes/languages/trans_dash.php:357
 msgid "Nobody can tell the Jibres story better than our customers."
 msgstr "هیچ‌کس بهتر از شما نمی‌تواند جیبرس را برای مشتریان ما توضیح دهد."
 
 #: billboard/includes/languages/trans_addons.php:75
+#: billboard/includes/languages/trans_dash.php:119
 #: dash/addons/includes/languages/trans_dash.php:358
 msgid "Nobody can tell the Jibres story better than you;)"
 msgstr "هیچ‌کس بهتر از شما نمی‌تواند جیبرس را برای مشتریان ما توضیح دهد;)"
 
 #: billboard/includes/languages/trans_addons.php:76
+#: billboard/includes/languages/trans_dash.php:120
 #: dash/addons/includes/languages/trans_dash.php:359
 msgid "How it works?"
 msgstr "چطور کار می‌کند؟"
 
 #: billboard/includes/languages/trans_addons.php:77
+#: billboard/includes/languages/trans_dash.php:121
 #: dash/addons/includes/languages/trans_dash.php:360
 msgid "Tell your friends about the Jibres story."
 msgstr "به دوستان خود در مورد داستان جیبرس بگویید."
 
 #: billboard/includes/languages/trans_addons.php:78
+#: billboard/includes/languages/trans_dash.php:122
 #: dash/addons/includes/languages/trans_dash.php:361
 msgid "Refer your friends through Social Media or Email."
 msgstr "دوستان خود را از طریق شبکه‌های اجتماعی و ایمیل ارجاع دهید."
 
 #: billboard/includes/languages/trans_addons.php:79
+#: billboard/includes/languages/trans_dash.php:123
 #: dash/addons/includes/languages/trans_dash.php:362
 msgid ""
 "Share the referral rewards program with friends on Facebook, Twitter, or Email."
@@ -338,6 +385,7 @@ msgstr ""
 "ایمیل به اشتراک بگذارید."
 
 #: billboard/includes/languages/trans_addons.php:80
+#: billboard/includes/languages/trans_dash.php:124
 #: dash/addons/includes/languages/trans_dash.php:363
 msgid "When they click on your post, we’ll know it was you who referred them."
 msgstr ""
@@ -345,6 +393,7 @@ msgstr ""
 "کرده‌اید."
 
 #: billboard/includes/languages/trans_addons.php:81
+#: billboard/includes/languages/trans_dash.php:125
 #: dash/addons/includes/languages/trans_dash.php:364
 msgid ""
 "If someone forget to use your link, we allow to set your ref code as promo code in "
@@ -354,16 +403,19 @@ msgstr ""
 "کد شما را به عنوان کدتخفیف در صفحه مالی می‌دهیم!"
 
 #: billboard/includes/languages/trans_addons.php:82
+#: billboard/includes/languages/trans_dash.php:126
 #: dash/addons/includes/languages/trans_dash.php:365
 msgid "Your friend enter to Jibres and receives credit."
 msgstr "دوستان شما وارد جیبرس شده و اعتبار دریافت می‌کنند."
 
 #: billboard/includes/languages/trans_addons.php:83
+#: billboard/includes/languages/trans_dash.php:127
 #: dash/addons/includes/languages/trans_dash.php:366
 msgid "Your friend enter and receives $5 account credit."
 msgstr "دوستان شما وارد جیبرس شده و ۱۰.۰۰۰  تومان اعتبار هدیه دریافت می‌کنند."
 
 #: billboard/includes/languages/trans_addons.php:84
+#: billboard/includes/languages/trans_dash.php:128
 #: dash/addons/includes/languages/trans_dash.php:367
 msgid ""
 "Anyone you refer to Jibres that enter using your unique referral link or your "
@@ -374,16 +426,19 @@ msgstr ""
 "خواهند کرد."
 
 #: billboard/includes/languages/trans_addons.php:85
+#: billboard/includes/languages/trans_dash.php:129
 #: dash/addons/includes/languages/trans_dash.php:368
 msgid "You all get rewarded."
 msgstr "همه جایزه می‌گیرید.مثل برد برد!"
 
 #: billboard/includes/languages/trans_addons.php:86
+#: billboard/includes/languages/trans_dash.php:130
 #: dash/addons/includes/languages/trans_dash.php:369
 msgid "Jibres rewards are charge in your account after 7 work days of confirmation."
 msgstr "جوایز جیبرس حداکثر ۷ روز کاری پس از تایید در حساب شما شارژ می‌شود."
 
 #: billboard/includes/languages/trans_addons.php:87
+#: billboard/includes/languages/trans_dash.php:131
 #: dash/addons/includes/languages/trans_dash.php:370
 msgid ""
 "Amount of charge is depended on your friend total pay and after automatic "
@@ -393,6 +448,7 @@ msgstr ""
 "سیستم هدیه شما را منظور خواهد کرد."
 
 #: billboard/includes/languages/trans_addons.php:88
+#: billboard/includes/languages/trans_dash.php:132
 #: dash/addons/includes/languages/trans_dash.php:371
 msgid ""
 "We calculate your percentage until 6 month of your friend registration. Because of "
@@ -403,11 +459,13 @@ msgstr ""
 "برای شارژ بیشتر متقاعد کنید!"
 
 #: billboard/includes/languages/trans_addons.php:89
+#: billboard/includes/languages/trans_dash.php:133
 #: dash/addons/includes/languages/trans_dash.php:372
 msgid "Share your link"
 msgstr "لینک خود را به اشتراک بگذارید"
 
 #: billboard/includes/languages/trans_addons.php:90
+#: billboard/includes/languages/trans_dash.php:134
 #: dash/addons/includes/languages/trans_dash.php:373
 msgid ""
 "Copy your personal referral link and share it with your friends and followers."
@@ -416,147 +474,176 @@ msgstr ""
 "بگذارید."
 
 #: billboard/includes/languages/trans_addons.php:91
+#: billboard/includes/languages/trans_dash.php:135
 #: dash/addons/includes/languages/trans_dash.php:374
 msgid "Link"
 msgstr "لینک"
 
 #: billboard/includes/languages/trans_addons.php:92
+#: billboard/includes/languages/trans_dash.php:136
 #: dash/addons/includes/languages/trans_dash.php:376
 msgid "Referral stats"
 msgstr "وضعیت معرفی"
 
 #: billboard/includes/languages/trans_addons.php:93
+#: billboard/includes/languages/trans_dash.php:137
 #: dash/addons/includes/languages/trans_dash.php:377
 msgid "CLICKS"
 msgstr "کلیک"
 
 #: billboard/includes/languages/trans_addons.php:94
+#: billboard/includes/languages/trans_dash.php:138
 #: dash/addons/includes/languages/trans_dash.php:378
 msgid "Number of times your link has been opened."
 msgstr "تعداد دفعات باز شدن لینک شما."
 
 #: billboard/includes/languages/trans_addons.php:95
+#: billboard/includes/languages/trans_dash.php:139
 #: dash/addons/includes/languages/trans_dash.php:379
 msgid "REFERRALS"
 msgstr "معرفی شدگان"
 
 #: billboard/includes/languages/trans_addons.php:96
+#: billboard/includes/languages/trans_dash.php:140
 #: dash/addons/includes/languages/trans_dash.php:380
 msgid "People who enter to Jibres using your link."
 msgstr "نفراتی که با لینک شما وارد جیبرس شدند."
 
 #: billboard/includes/languages/trans_addons.php:97
+#: billboard/includes/languages/trans_dash.php:141
 #: dash/addons/includes/languages/trans_dash.php:382
 msgid "People who connected to you with promo code."
 msgstr "تعداد نفراتی که از طریق کدتخفیف به شما متصل شده‌اند."
 
 #: billboard/includes/languages/trans_addons.php:98
+#: billboard/includes/languages/trans_dash.php:142
 #: dash/addons/includes/languages/trans_dash.php:383
 msgid "Total you refed"
 msgstr "جمع معرفی‌شدگان"
 
 #: billboard/includes/languages/trans_addons.php:99
+#: billboard/includes/languages/trans_dash.php:143
 #: dash/addons/includes/languages/trans_dash.php:384
 msgid "Sum of people referred from you."
 msgstr "جمع تعداد نفراتی که شما معرفی کردید."
 
 #: billboard/includes/languages/trans_addons.php:100
+#: billboard/includes/languages/trans_dash.php:144
 #: dash/addons/includes/languages/trans_dash.php:385
 msgid "Active users"
 msgstr "کاربران فعال"
 
 #: billboard/includes/languages/trans_addons.php:101
+#: billboard/includes/languages/trans_dash.php:145
 #: dash/addons/includes/languages/trans_dash.php:386
 msgid "People who work with their account."
 msgstr "کسانی که حساب‌کاربری فعال دارند."
 
 #: billboard/includes/languages/trans_addons.php:102
+#: billboard/includes/languages/trans_dash.php:146
 #: dash/addons/includes/languages/trans_dash.php:387
 msgid "You earned"
 msgstr "شما بدست آوردید"
 
 #: billboard/includes/languages/trans_addons.php:103
+#: billboard/includes/languages/trans_dash.php:147
 #: dash/addons/includes/languages/trans_dash.php:270
 #: dash/addons/includes/languages/trans_static.php:197
 msgid "Description"
 msgstr "توضیح"
 
 #: billboard/includes/languages/trans_addons.php:104
+#: billboard/includes/languages/trans_dash.php:148
 #: dash/addons/includes/languages/trans_dash.php:388
 msgid "Percentage"
 msgstr "درصد"
 
 #: billboard/includes/languages/trans_addons.php:105
+#: billboard/includes/languages/trans_dash.php:149
 #: dash/addons/includes/languages/trans_dash.php:390
 msgid "Level 1"
 msgstr "سطح یک"
 
 #: billboard/includes/languages/trans_addons.php:106
+#: billboard/includes/languages/trans_dash.php:150
 #: dash/addons/includes/languages/trans_dash.php:391
 msgid "People who pay more than 25$."
 msgstr "کسانی که بیشتر از ۵۰ هزار تومان شارژ کرده‌اند."
 
 #: billboard/includes/languages/trans_addons.php:107
+#: billboard/includes/languages/trans_dash.php:151
 #: dash/addons/includes/languages/trans_dash.php:392
 msgid "Level 2"
 msgstr "سطح دو"
 
 #: billboard/includes/languages/trans_addons.php:108
+#: billboard/includes/languages/trans_dash.php:152
 #: dash/addons/includes/languages/trans_dash.php:393
 msgid "People who pay more than 50$."
 msgstr "کسانی که بیشتر از ۱۰۰ هزار تومان شارژ کرده‌اند."
 
 #: billboard/includes/languages/trans_addons.php:109
+#: billboard/includes/languages/trans_dash.php:153
 #: dash/addons/includes/languages/trans_dash.php:394
 msgid "Level 3"
 msgstr "سطح سه"
 
 #: billboard/includes/languages/trans_addons.php:110
+#: billboard/includes/languages/trans_dash.php:154
 #: dash/addons/includes/languages/trans_dash.php:395
 msgid "People who pay more than 500$."
 msgstr "کسانی که بیشتر از یک میلیون تومان شارژ کرده‌اند."
 
 #: billboard/includes/languages/trans_addons.php:111
+#: billboard/includes/languages/trans_dash.php:155
 #: dash/addons/includes/languages/trans_dash.php:396
 msgid "Level 4"
 msgstr "سطح چهار"
 
 #: billboard/includes/languages/trans_addons.php:112
+#: billboard/includes/languages/trans_dash.php:156
 #: dash/addons/includes/languages/trans_dash.php:397
 msgid "People who pay more than 5000$."
 msgstr "کسانی که بیشتر از ده میلیون تومان شارژ کرده‌اند."
 
 #: billboard/includes/languages/trans_addons.php:113
+#: billboard/includes/languages/trans_dash.php:157
 #: dash/addons/includes/languages/trans_dash.php:398
 msgid "Sum of your credit earned from refs."
 msgstr "جمع اعتبار بدست آمده از طریق معرفی‌شدگان."
 
 #: billboard/includes/languages/trans_addons.php:114
+#: billboard/includes/languages/trans_dash.php:158
 #: dash/addons/includes/languages/trans_dash.php:399
 msgid "Confirm earned"
 msgstr "اعتبار تاییدشده"
 
 #: billboard/includes/languages/trans_addons.php:115
+#: billboard/includes/languages/trans_dash.php:159
 #: dash/addons/includes/languages/trans_dash.php:400
 msgid "Sum of confirmed credit earned from refs."
 msgstr "جمع اعتبارات تاییدشده از معرفی‌شدگان."
 
 #: billboard/includes/languages/trans_addons.php:116
+#: billboard/includes/languages/trans_dash.php:160
 #: dash/addons/includes/languages/trans_dash.php:401
 msgid "Enter to get a unique referral link."
 msgstr "برادی دریافت کد معرفی منحصر به فرد خود، وارد شوید."
 
 #: billboard/includes/languages/trans_addons.php:117
+#: billboard/includes/languages/trans_dash.php:161
 #: dash/addons/includes/languages/trans_dash.php:402
 msgid "Use our logo to help spread the word."
 msgstr "برای گسترش معرفی خود از لوگوی ما استفاده کنید."
 
 #: billboard/includes/languages/trans_addons.php:118
+#: billboard/includes/languages/trans_dash.php:162
 #: dash/addons/includes/languages/trans_dash.php:403
 msgid "Enter to Jibres"
 msgstr "ورود به جیبرس"
 
 #: billboard/includes/languages/trans_addons.php:121
+#: billboard/includes/languages/trans_dash.php:180
 #: dash/addons/content_cp/comments/home/view.php:11
 #: dash/addons/includes/languages/trans_dash.php:181
 #: dash/addons/includes/languages/trans_static.php:98
@@ -565,6 +652,7 @@ msgid "Comments"
 msgstr "دیدگاه‌ها"
 
 #: billboard/includes/languages/trans_addons.php:122
+#: billboard/includes/languages/trans_dash.php:181
 #: dash/addons/content_cp/posts/home/view.php:23
 #: dash/addons/includes/languages/trans_dash.php:182
 #: dash/addons/includes/languages/trans_static.php:94
@@ -573,16 +661,19 @@ msgid "Posts"
 msgstr "نوشته‌ها"
 
 #: billboard/includes/languages/trans_addons.php:123
+#: billboard/includes/languages/trans_dash.php:182
 #: dash/addons/includes/languages/trans_dash.php:183
 msgid "Page"
 msgstr "صفحه"
 
 #: billboard/includes/languages/trans_addons.php:124
+#: billboard/includes/languages/trans_dash.php:183
 #: dash/addons/includes/languages/trans_dash.php:184
 msgid "Category"
 msgstr "دسته‌بندی"
 
 #: billboard/includes/languages/trans_addons.php:125
+#: billboard/includes/languages/trans_dash.php:184
 #: dash/addons/content_cp/terms/view.php:30
 #: dash/addons/includes/languages/trans_dash.php:185
 #: dash/addons/includes/languages/trans_static.php:973
@@ -590,11 +681,13 @@ msgid "Tags"
 msgstr "برچسب‌ها"
 
 #: billboard/includes/languages/trans_addons.php:128
+#: billboard/includes/languages/trans_dash.php:187
 #: dash/addons/includes/languages/trans_dash.php:123
 msgid "Author"
 msgstr "نویسنده"
 
 #: billboard/includes/languages/trans_addons.php:129
+#: billboard/includes/languages/trans_dash.php:104
 #: dash/addons/includes/languages/trans_dash.php:124
 #: dash/addons/includes/languages/trans_static.php:939
 #: dash/addons/includes/languages/trans_static.php:981
@@ -602,16 +695,19 @@ msgid "Email"
 msgstr "رایانامه"
 
 #: billboard/includes/languages/trans_addons.php:130
+#: billboard/includes/languages/trans_dash.php:191
 #: dash/addons/includes/languages/trans_dash.php:130
 msgid "Approve"
 msgstr "تایید"
 
 #: billboard/includes/languages/trans_addons.php:131
+#: billboard/includes/languages/trans_dash.php:194
 #: dash/addons/includes/languages/trans_dash.php:134
 msgid "Spam"
 msgstr "هرزنامه"
 
 #: billboard/includes/languages/trans_addons.php:134
+#: billboard/includes/languages/trans_dash.php:198
 #: dash/addons/content_cp/terms/view.php:85
 #: dash/addons/includes/languages/trans_dash.php:138
 #: dash/addons/includes/languages/trans_static.php:112
@@ -623,6 +719,7 @@ msgid "Content"
 msgstr "محتوا"
 
 #: billboard/includes/languages/trans_addons.php:136
+#: billboard/includes/languages/trans_dash.php:95
 #: dash/addons/content_cp/contact/home/view.php:65
 #: dash/addons/content_cp/posts/home/view.php:126
 #: dash/addons/includes/languages/trans_dash.php:129
@@ -630,46 +727,55 @@ msgid "Status"
 msgstr "وضعیت"
 
 #: billboard/includes/languages/trans_addons.php:137
+#: billboard/includes/languages/trans_dash.php:205
 #: dash/addons/includes/languages/trans_dash.php:145
 msgid "Clear filters"
 msgstr "پاک‌سازی فیلترها"
 
 #: billboard/includes/languages/trans_addons.php:138
+#: billboard/includes/languages/trans_dash.php:206
 #: dash/addons/includes/languages/trans_dash.php:146
 msgid "Result not found!"
 msgstr "نتیجه‌ای یافت نشد!"
 
 #: billboard/includes/languages/trans_addons.php:139
+#: billboard/includes/languages/trans_dash.php:207
 #: dash/addons/includes/languages/trans_dash.php:147
 msgid "Search with new keywords."
 msgstr "با کلیدواژه‌های بهتری جستجو کنید."
 
 #: billboard/includes/languages/trans_addons.php:140
+#: billboard/includes/languages/trans_dash.php:274
 #: dash/addons/includes/languages/trans_dash.php:256
 msgid "Hi!"
 msgstr "سلام!"
 
 #: billboard/includes/languages/trans_addons.php:141
+#: billboard/includes/languages/trans_dash.php:275
 #: dash/addons/includes/languages/trans_dash.php:295
 msgid "Try to start with add new record!"
 msgstr "با افزودن رکورد جدید تلاشی برای شروع داشته باشید!"
 
 #: billboard/includes/languages/trans_addons.php:144
+#: billboard/includes/languages/trans_dash.php:223
 #: dash/addons/includes/languages/trans_dash.php:178
 msgid "CMS"
 msgstr "سیستم مدیریت محتوا"
 
 #: billboard/includes/languages/trans_addons.php:145
+#: billboard/includes/languages/trans_dash.php:226
 #: dash/addons/includes/languages/trans_dash.php:340
 msgid "News"
 msgstr "اخبار"
 
 #: billboard/includes/languages/trans_addons.php:146
+#: billboard/includes/languages/trans_dash.php:227
 #: dash/addons/includes/languages/trans_dash.php:341
 msgid "Categries"
 msgstr "دسته‌بندی‌ها"
 
 #: billboard/includes/languages/trans_addons.php:147
+#: billboard/includes/languages/trans_dash.php:228
 #: dash/addons/content_cp/posts/home/view.php:33
 #: dash/addons/includes/languages/trans_dash.php:342
 #: dash/addons/includes/languages/trans_static.php:95
@@ -691,22 +797,26 @@ msgid "wait for next version!"
 msgstr "منتظر نسخه بعدی باشید!"
 
 #: billboard/includes/languages/trans_addons.php:151
+#: billboard/includes/languages/trans_dash.php:237
 #: dash/addons/includes/languages/trans_dash.php:350
 msgid "Powered by"
 msgstr "قدرت گرفته از"
 
 #: billboard/includes/languages/trans_addons.php:152
+#: billboard/includes/languages/trans_dash.php:238
 #: dash/addons/includes/languages/trans_dash.php:351
 msgid "Some right reserved"
 msgstr "برخی از حقوق محفوظ است"
 
 #: billboard/includes/languages/trans_addons.php:154
+#: billboard/includes/languages/trans_dash.php:240
 #: dash/addons/includes/languages/trans_dash.php:353
 #: dash/addons/includes/languages/trans_static.php:108
 msgid "Version"
 msgstr "نسخه"
 
 #: billboard/includes/languages/trans_addons.php:159
+#: billboard/includes/languages/trans_dash.php:284
 #: dash/addons/includes/languages/trans_dash.php:304
 msgid "Enter title here"
 msgstr "عنوان را اینجا وارد کنید"
@@ -716,6 +826,7 @@ msgid "Enter a good and short title"
 msgstr "عنوانی کوتاه و مناسب وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:161
+#: billboard/includes/languages/trans_dash.php:286
 #: dash/addons/includes/languages/trans_dash.php:306
 msgid "Enter subtitle here"
 msgstr "زیرنویس را اینجا وارد کنید"
@@ -725,66 +836,79 @@ msgid "Subtitle can used based on theme support"
 msgstr "زیرنویس می تواند بر اساس پشتیبانی تم مورد استفاده قرار گیرد"
 
 #: billboard/includes/languages/trans_addons.php:163
+#: billboard/includes/languages/trans_dash.php:288
 #: dash/addons/includes/languages/trans_dash.php:308
 msgid "Enter excerpt here"
 msgstr "گزیده متن را اینجا بنویسید"
 
 #: billboard/includes/languages/trans_addons.php:164
+#: billboard/includes/languages/trans_dash.php:289
 #: dash/addons/includes/languages/trans_dash.php:309
 msgid "Excerpt used for social media and search engines"
 msgstr "گزیده متن برای رسانه های اجتماعی و موتورهای جستجو استفاده می شود"
 
 #: billboard/includes/languages/trans_addons.php:165
+#: billboard/includes/languages/trans_dash.php:246
 #: dash/addons/includes/languages/trans_dash.php:155
 msgid "Slug"
 msgstr "نامک"
 
 #: billboard/includes/languages/trans_addons.php:166
+#: billboard/includes/languages/trans_dash.php:292
 #: dash/addons/includes/languages/trans_dash.php:312
 msgid "Slug used to create url"
 msgstr "نامک برای استفاده در آدرس به کار می رود"
 
 #: billboard/includes/languages/trans_addons.php:167
+#: billboard/includes/languages/trans_dash.php:293
 #: dash/addons/includes/languages/trans_dash.php:313
 msgid "Write post "
 msgstr "نوشتن پست"
 
 #: billboard/includes/languages/trans_addons.php:168
+#: billboard/includes/languages/trans_dash.php:272
 #: dash/addons/includes/languages/trans_dash.php:294
 msgid "Publish date"
 msgstr "تاریخ انتشار"
 
 #: billboard/includes/languages/trans_addons.php:169
+#: billboard/includes/languages/trans_dash.php:298
 #: dash/addons/includes/languages/trans_dash.php:318
 msgid "To add image gallery drop file here or"
 msgstr "برای اضافه کردن فایل گالری عکس در اینجا یا"
 
 #: billboard/includes/languages/trans_addons.php:170
+#: billboard/includes/languages/trans_dash.php:113
 #: dash/addons/includes/languages/trans_dash.php:162
 msgid "Save"
 msgstr "ذخیره"
 
 #: billboard/includes/languages/trans_addons.php:171
+#: billboard/includes/languages/trans_dash.php:299
 #: dash/addons/includes/languages/trans_dash.php:319
 msgid "Publish"
 msgstr "انتشار"
 
 #: billboard/includes/languages/trans_addons.php:172
+#: billboard/includes/languages/trans_dash.php:279
 #: dash/addons/includes/languages/trans_dash.php:299
 msgid "Draft"
 msgstr "پیش‌نویس"
 
 #: billboard/includes/languages/trans_addons.php:173
+#: billboard/includes/languages/trans_dash.php:281
 #: dash/addons/includes/languages/trans_dash.php:301
 msgid "Deleted"
 msgstr "حذف شده"
 
 #: billboard/includes/languages/trans_addons.php:174
+#: billboard/includes/languages/trans_dash.php:200
 #: dash/addons/includes/languages/trans_dash.php:140
 msgid "Comment"
 msgstr "دیدگاه"
 
 #: billboard/includes/languages/trans_addons.php:175
+#: billboard/includes/languages/trans_dash.php:301
 #: dash/addons/includes/languages/trans_dash.php:273
 msgid "Language"
 msgstr "زبان"
@@ -794,53 +918,63 @@ msgid "Whithout language"
 msgstr "بدون زبان"
 
 #: billboard/includes/languages/trans_addons.php:177
+#: billboard/includes/languages/trans_dash.php:307
 #: dash/addons/includes/languages/trans_dash.php:323
 msgid "Choose category of post"
 msgstr "دسته پست را انتخاب کنید"
 
 #: billboard/includes/languages/trans_addons.php:178
+#: billboard/includes/languages/trans_dash.php:310
 #: dash/addons/includes/languages/trans_dash.php:326
 msgid "Add tag manually to link articles togethers"
 msgstr "تگ اضافه را به صورت دستی اضافه کنید تا مقالات را در کنار هم قرار دهید"
 
 #: billboard/includes/languages/trans_addons.php:179
+#: billboard/includes/languages/trans_dash.php:309
 #: dash/addons/includes/languages/trans_dash.php:325
 msgid "Tag"
 msgstr "کلیدواژه"
 
 #: billboard/includes/languages/trans_addons.php:180
+#: billboard/includes/languages/trans_dash.php:311
 #: dash/addons/includes/languages/trans_dash.php:327
 msgid "Tag keywords..."
 msgstr "کلیدواژه‌های خود را تگ کنید"
 
 #: billboard/includes/languages/trans_addons.php:181
+#: billboard/includes/languages/trans_dash.php:312
 #: dash/addons/includes/languages/trans_dash.php:328
 msgid "Add tag"
 msgstr "افزودن برچسب"
 
 #: billboard/includes/languages/trans_addons.php:182
+#: billboard/includes/languages/trans_dash.php:174
 #: dash/addons/includes/languages/trans_dash.php:103
 msgid "Remove"
 msgstr "حذف"
 
 #: billboard/includes/languages/trans_addons.php:185
+#: billboard/includes/languages/trans_dash.php:83
 #: dash/addons/includes/languages/trans_dash.php:220
 msgid "Type"
 msgstr "نوع"
 
 #: billboard/includes/languages/trans_addons.php:186
+#: billboard/includes/languages/trans_dash.php:112
 #: dash/addons/includes/languages/trans_dash.php:104
 #: dash/addons/includes/languages/trans_static.php:147
 msgid "Add"
 msgstr "افزودن"
 
 #: billboard/includes/languages/trans_addons.php:187
+#: billboard/includes/languages/trans_dash.php:203
 #: dash/addons/includes/languages/trans_dash.php:101
 #: dash/addons/includes/languages/trans_static.php:148
 msgid "Edit"
 msgstr "ویرایش"
 
 #: billboard/includes/languages/trans_addons.php:188
+#: billboard/includes/languages/trans_dash.php:86
 #: dash/addons/includes/languages/trans_dash.php:156
 msgid "Require"
 msgstr "الزامی"
@@ -850,6 +984,7 @@ msgid "Enter a valid title"
 msgstr "عنوان را وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:190
+#: billboard/includes/languages/trans_dash.php:349
 #: dash/addons/includes/languages/trans_dash.php:266
 msgid "Used for url"
 msgstr "استفاده‌شده برای نشانی وب"
@@ -859,156 +994,187 @@ msgid "Enter a valid slug"
 msgstr "نامک معتبری وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:192
+#: billboard/includes/languages/trans_dash.php:351
 #: dash/addons/includes/languages/trans_dash.php:268
 msgid "Parent Category"
 msgstr "دسته‌بندی والد"
 
 #: billboard/includes/languages/trans_addons.php:193
+#: billboard/includes/languages/trans_dash.php:352
 #: dash/addons/includes/languages/trans_dash.php:269
 msgid "Please select one itme"
 msgstr "لطفا یک گزینه را انتخاب کنید"
 
 #: billboard/includes/languages/trans_addons.php:194
+#: billboard/includes/languages/trans_dash.php:96
 #: dash/addons/includes/languages/trans_dash.php:230
 msgid "Active"
 msgstr "فعال"
 
 #: billboard/includes/languages/trans_addons.php:195
+#: billboard/includes/languages/trans_dash.php:98
 #: dash/addons/includes/languages/trans_dash.php:231
 msgid "Deactive"
 msgstr "غیرفعال"
 
 #: billboard/includes/languages/trans_addons.php:196
+#: billboard/includes/languages/trans_dash.php:353
 #: dash/addons/includes/languages/trans_dash.php:271
 msgid "Excerpt"
 msgstr "چکیده"
 
 #: billboard/includes/languages/trans_addons.php:197
+#: billboard/includes/languages/trans_dash.php:354
 #: dash/addons/includes/languages/trans_dash.php:272
 msgid "Try to start with add new records!"
 msgstr "با افزودن رکورد جدید تلاشی برای شروع داشته باشید!"
 
 #: billboard/includes/languages/trans_addons.php:200
+#: billboard/includes/languages/trans_dash.php:384
 #: dash/addons/includes/languages/trans_dash.php:80
 msgid "Go"
 msgstr "برو"
 
 #: billboard/includes/languages/trans_addons.php:203
+#: billboard/includes/languages/trans_dash.php:387
 #: dash/addons/includes/languages/trans_dash.php:75
 msgid "What are you doing!"
 msgstr "چیکار میکنی!"
 
 #: billboard/includes/languages/trans_addons.php:204
+#: billboard/includes/languages/trans_dash.php:388
 #: dash/addons/includes/languages/trans_dash.php:76
 msgid "If you are bot, be easy and call your mom"
 msgstr "اگر شما بات هستید، آرام باشید و با مامان جونتون تماس بگیرید"
 
 #: billboard/includes/languages/trans_addons.php:205
+#: billboard/includes/languages/trans_dash.php:389
 #: dash/addons/includes/languages/trans_dash.php:77
 msgid "If you are human being, what are you doing here! be personable..."
 msgstr "اگر انسان هستید، اینجا چیکار میکنید! با شخصیت باشید..."
 
 #: billboard/includes/languages/trans_addons.php:208
+#: billboard/includes/languages/trans_dash.php:392
 #: dash/addons/includes/languages/trans_dash.php:64
 msgid "You are blocked becauese of some reason!"
 msgstr "شما به دلایلی بلاک شده‌اید!"
 
 #: billboard/includes/languages/trans_addons.php:209
+#: billboard/includes/languages/trans_dash.php:393
 #: dash/addons/includes/languages/trans_dash.php:65
 msgid "If have problem"
 msgstr "در صورت بروز مشکل"
 
 #: billboard/includes/languages/trans_addons.php:210
+#: billboard/includes/languages/trans_dash.php:394
 #: dash/addons/includes/languages/trans_dash.php:66
 msgid "Contact us"
 msgstr "با ما تماس بگیرید"
 
 #: billboard/includes/languages/trans_addons.php:213
+#: billboard/includes/languages/trans_dash.php:397
 #: dash/addons/includes/languages/trans_dash.php:69
 msgid "We are so sorry for losing you!"
 msgstr "ما برای از دست دادن شما خیلی متاسفیم!"
 
 #: billboard/includes/languages/trans_addons.php:214
+#: billboard/includes/languages/trans_dash.php:398
 #: dash/addons/includes/languages/trans_dash.php:70
 msgid "if you want you can come back to"
 msgstr "در صورتی که بخواهید می‌توانید برگردید"
 
 #: billboard/includes/languages/trans_addons.php:215
+#: billboard/includes/languages/trans_dash.php:399
 #: dash/addons/includes/languages/trans_dash.php:71
 msgid "join us"
 msgstr "به ما ملحق شوید"
 
 #: billboard/includes/languages/trans_addons.php:216
+#: billboard/includes/languages/trans_dash.php:400
 #: dash/addons/includes/languages/trans_dash.php:72
 msgid "Bye Bye :("
 msgstr "خداحافط :("
 
 #: billboard/includes/languages/trans_addons.php:219
+#: billboard/includes/languages/trans_dash.php:403
 #: dash/addons/includes/languages/trans_dash.php:8
 msgid "Hi"
 msgstr "سلام"
 
 #: billboard/includes/languages/trans_addons.php:220
+#: billboard/includes/languages/trans_dash.php:404
 #: dash/addons/includes/languages/trans_dash.php:9
 msgid "You must not be here!"
 msgstr "شما نباید اینجا باشید!"
 
 #: billboard/includes/languages/trans_addons.php:223
+#: billboard/includes/languages/trans_dash.php:407
 #: dash/addons/includes/languages/trans_dash.php:42
 msgid "Why you want to delete your account!?"
 msgstr "چرا می‌خواهید حساب‌کاربری خود را حذف کنید!؟"
 
 #: billboard/includes/languages/trans_addons.php:226
+#: billboard/includes/languages/trans_dash.php:410
 #: dash/addons/includes/languages/trans_dash.php:36
 msgid "We detected two accout for you"
 msgstr "ما متوجه وجود دو حساب کاربری برای شما شدیم"
 
 #: billboard/includes/languages/trans_addons.php:227
+#: billboard/includes/languages/trans_dash.php:411
 #: dash/addons/includes/languages/trans_dash.php:37
 msgid "Please remove one of them and"
 msgstr "لطفا یکی را حذف کنید و"
 
 #: billboard/includes/languages/trans_addons.php:228
+#: billboard/includes/languages/trans_dash.php:412
 #: dash/addons/includes/languages/trans_dash.php:38
 msgid "if you want to delete this account"
 msgstr "اگر می‌خواهید این حساب‌کاربری را حذف کنید"
 
 #: billboard/includes/languages/trans_addons.php:229
+#: billboard/includes/languages/trans_dash.php:413
 #: dash/addons/includes/languages/trans_dash.php:39
 msgid "click here"
 msgstr "اینجا کلیک کنید"
 
 #: billboard/includes/languages/trans_addons.php:232
+#: billboard/includes/languages/trans_dash.php:416
 #: dash/addons/includes/languages/trans_dash.php:33
 msgid "Remove my email address"
 msgstr "بازیابی ایمیل"
 
 #: billboard/includes/languages/trans_addons.php:235
+#: billboard/includes/languages/trans_dash.php:419
 #: dash/addons/includes/languages/trans_dash.php:26
 msgid "We found your Google Mail that is different from your current google mail"
 msgstr "رایانامه گوگل وارد شده با رایانامه فعلی شما مطابقت ندارد"
 
 #: billboard/includes/languages/trans_addons.php:236
+#: billboard/includes/languages/trans_dash.php:420
 #: dash/addons/includes/languages/trans_dash.php:27
 msgid "Would you like to change your old google mail?"
 msgstr "آیا مایلید رایانامه گوگل قدیمی‌خود را تغییر دهید؟"
 
 #: billboard/includes/languages/trans_addons.php:237
+#: billboard/includes/languages/trans_dash.php:421
 #: dash/addons/includes/languages/trans_dash.php:28
 msgid "Change to"
 msgstr "تغییر به"
 
 #: billboard/includes/languages/trans_addons.php:238
+#: billboard/includes/languages/trans_dash.php:422
 #: dash/addons/includes/languages/trans_dash.php:29
 msgid "Update google mail"
 msgstr "به‌روزرسانی رایانامه گوگل"
 
 #: billboard/includes/languages/trans_addons.php:239
+#: billboard/includes/languages/trans_dash.php:423
 #: dash/addons/includes/languages/trans_dash.php:30
 msgid "Don't change"
 msgstr "تغییر نده"
 
 #: billboard/includes/languages/trans_addons.php:244
+#: billboard/includes/languages/trans_dash.php:428
 #: dash/addons/includes/languages/trans_dash.php:83
 msgid "You"
 msgstr "شما"
@@ -1022,162 +1188,194 @@ msgid "I dont want use mobile"
 msgstr "نمی‌خواهم از تلفن همراه استفاده کنم"
 
 #: billboard/includes/languages/trans_addons.php:251
+#: billboard/includes/languages/trans_dash.php:431
 #: dash/addons/includes/languages/trans_dash.php:21
 msgid "You are logined ;)"
 msgstr "شما وارد سیستم هستید;)"
 
 #: billboard/includes/languages/trans_addons.php:252
+#: billboard/includes/languages/trans_dash.php:432
 #: dash/addons/includes/languages/trans_dash.php:22
 msgid "Be patient or"
 msgstr "صبور باشید یا"
 
 #: billboard/includes/languages/trans_addons.php:253
+#: billboard/includes/languages/trans_dash.php:433
 #: dash/addons/includes/languages/trans_dash.php:23
 msgid "click here!"
 msgstr "اینجا کلیک کنید!"
 
 #: billboard/includes/languages/trans_addons.php:256
+#: billboard/includes/languages/trans_dash.php:436
 #: dash/addons/includes/languages/trans_dash.php:15
 msgid "Can't access your account?"
 msgstr "نمی‌توانید به حساب خود وارد شوید؟"
 
 #: billboard/includes/languages/trans_addons.php:259
+#: billboard/includes/languages/trans_dash.php:439
 #: dash/addons/includes/languages/trans_dash.php:18
 msgid "Remembered your password?"
 msgstr "کلمه عبور خود را به خاطر آوردید!؟"
 
 #: billboard/includes/languages/trans_addons.php:262
+#: billboard/includes/languages/trans_dash.php:442
 #: dash/addons/includes/languages/trans_dash.php:45
 msgid "Terminate"
 msgstr "مسدودسازی"
 
 #: billboard/includes/languages/trans_addons.php:265
+#: billboard/includes/languages/trans_dash.php:445
 #: dash/addons/includes/languages/trans_dash.php:12
 msgid "Remove username"
 msgstr "حذف نام کاربری"
 
 #: billboard/includes/languages/trans_addons.php:268
+#: billboard/includes/languages/trans_dash.php:448
 #: dash/addons/includes/languages/trans_dash.php:51
 msgid "Send code in your Telegram"
 msgstr "ارسال کد در تلگرام شما"
 
 #: billboard/includes/languages/trans_addons.php:269
+#: billboard/includes/languages/trans_dash.php:449
 #: dash/addons/includes/languages/trans_dash.php:52
 msgid "Send code as sms to your phone"
 msgstr "ارسال کد از طریق پیامک به تلفن‌همراه شما"
 
 #: billboard/includes/languages/trans_addons.php:270
+#: billboard/includes/languages/trans_dash.php:450
 #: dash/addons/includes/languages/trans_dash.php:53
 msgid "Call you to send code"
 msgstr "تماس با شما برای ارسال کد"
 
 #: billboard/includes/languages/trans_addons.php:271
+#: billboard/includes/languages/trans_dash.php:451
 #: dash/addons/includes/languages/trans_dash.php:54
 msgid "You send code to us and we check it"
 msgstr "شما کد را برای ما ارسال کنید و ما چک کنیم"
 
 #: billboard/includes/languages/trans_addons.php:272
+#: billboard/includes/languages/trans_dash.php:452
 #: dash/addons/includes/languages/trans_dash.php:55
 msgid "Send code in your email"
 msgstr "ارسال کد به رایانامه شما"
 
 #: billboard/includes/languages/trans_addons.php:275
+#: billboard/includes/languages/trans_dash.php:455
 #: dash/addons/includes/languages/trans_dash.php:48
 msgid "We can not find eny way to send verification code to you!"
 msgstr "ما راهی برای ارسال کد به شما نیافتیم!"
 
 #: billboard/includes/languages/trans_addons.php:278
+#: billboard/includes/languages/trans_dash.php:458
 #: dash/addons/includes/languages/trans_dash.php:58
 msgid "You must set a mobile or email to continue"
 msgstr "برای ادامه شما باید تلفن‌همراه یا رایانامه را وارد کنید."
 
 #: billboard/includes/languages/trans_addons.php:279
+#: billboard/includes/languages/trans_dash.php:459
 #: dash/addons/includes/languages/trans_dash.php:59
 msgid "Go back"
 msgstr "برگرد"
 
 #: billboard/includes/languages/trans_addons.php:282
+#: billboard/includes/languages/trans_dash.php:462
 #: dash/addons/includes/languages/trans_dash.php:605
 msgid "Backup database"
 msgstr "پشتیبان گیری پایگاه داده"
 
 #: billboard/includes/languages/trans_addons.php:283
+#: billboard/includes/languages/trans_dash.php:463
 #: dash/addons/includes/languages/trans_dash.php:606
 msgid "Back"
 msgstr "قبلی"
 
 #: billboard/includes/languages/trans_addons.php:284
+#: billboard/includes/languages/trans_dash.php:464
 #: dash/addons/includes/languages/trans_dash.php:607
 msgid "File is empty"
 msgstr "فایل خالی است"
 
 #: billboard/includes/languages/trans_addons.php:285
+#: billboard/includes/languages/trans_dash.php:465
 #: dash/addons/includes/languages/trans_dash.php:608
 msgid "Database info"
 msgstr "اطلاعات دیتابیس"
 
 #: billboard/includes/languages/trans_addons.php:286
+#: billboard/includes/languages/trans_dash.php:466
 #: dash/addons/includes/languages/trans_dash.php:609
 msgid "Show Auto backup log file"
 msgstr "نمایش لاگ پشتیبان گیری‌های خود کار"
 
 #: billboard/includes/languages/trans_addons.php:287
+#: billboard/includes/languages/trans_dash.php:171
 #: dash/addons/includes/languages/trans_dash.php:278
 msgid "You can create backup now"
 msgstr "شما می‌توانید هم اکنون یک فایل پشتیبانی از اطلاعات خود داشته باشید"
 
 #: billboard/includes/languages/trans_addons.php:288
+#: billboard/includes/languages/trans_dash.php:173
 #: dash/addons/includes/languages/trans_dash.php:280
 msgid "Backup now"
 msgstr "هم اکنون فایل پشتیبانی تهیه کنید"
 
 #: billboard/includes/languages/trans_addons.php:289
+#: billboard/includes/languages/trans_dash.php:469
 #: dash/addons/includes/languages/trans_dash.php:612
 msgid "Auto backup"
 msgstr "پشتیبان گیری خودکار"
 
 #: billboard/includes/languages/trans_addons.php:290
+#: billboard/includes/languages/trans_dash.php:175
 #: dash/addons/includes/languages/trans_dash.php:281
 msgid "Sise"
 msgstr "سایز"
 
 #: billboard/includes/languages/trans_addons.php:291
+#: billboard/includes/languages/trans_dash.php:176
 #: dash/addons/includes/languages/trans_dash.php:282
 msgid "Download"
 msgstr "دانلود"
 
 #: billboard/includes/languages/trans_addons.php:292
+#: billboard/includes/languages/trans_dash.php:177
 #: dash/addons/includes/languages/trans_dash.php:283
 msgid "No backup was found"
 msgstr "هیچ فایل پشتیبانی یافت نشد"
 
 #: billboard/includes/languages/trans_addons.php:293
+#: billboard/includes/languages/trans_dash.php:470
 #: dash/addons/includes/languages/trans_dash.php:613
 msgid "Start backup every"
 msgstr "شروع عملیات پشتیبان گیری هر"
 
 #: billboard/includes/languages/trans_addons.php:294
+#: billboard/includes/languages/trans_dash.php:471
 #: dash/addons/includes/languages/trans_dash.php:614
 msgid "Year"
 msgstr "سال"
 
 #: billboard/includes/languages/trans_addons.php:295
+#: billboard/includes/languages/trans_dash.php:472
 #: dash/addons/includes/languages/trans_dash.php:615
 msgid "Month"
 msgstr "ماه"
 
 #: billboard/includes/languages/trans_addons.php:296
+#: billboard/includes/languages/trans_dash.php:473
 #: dash/addons/includes/languages/trans_dash.php:616
 msgid "Week"
 msgstr "هفته"
 
 #: billboard/includes/languages/trans_addons.php:297
+#: billboard/includes/languages/trans_dash.php:474
 #: dash/addons/includes/languages/trans_dash.php:617
 #: dash/addons/includes/languages/trans_static.php:524
 msgid "Day"
 msgstr "روز"
 
 #: billboard/includes/languages/trans_addons.php:298
+#: billboard/includes/languages/trans_dash.php:475
 #: dash/addons/includes/languages/trans_dash.php:618
 #: dash/addons/includes/languages/trans_static.php:33 dash/lib/utility/human.php:31
 #: dash/lib/utility/human.php:113
@@ -1185,76 +1383,91 @@ msgid "hour"
 msgstr "ساعت"
 
 #: billboard/includes/languages/trans_addons.php:299
+#: billboard/includes/languages/trans_dash.php:476
 #: dash/addons/includes/languages/trans_dash.php:619
 msgid "Start backup at time"
 msgstr "شروع عملیات پشتیبان گیری در ساعت"
 
 #: billboard/includes/languages/trans_addons.php:300
+#: billboard/includes/languages/trans_dash.php:477
 #: dash/addons/includes/languages/trans_dash.php:620
 msgid "Life time of old backup"
 msgstr "طل عمر فایل های پشتیبان گیری قبلی"
 
 #: billboard/includes/languages/trans_addons.php:301
+#: billboard/includes/languages/trans_dash.php:478
 #: dash/addons/includes/languages/trans_dash.php:621
 msgid "2 years"
 msgstr "دو سال"
 
 #: billboard/includes/languages/trans_addons.php:302
+#: billboard/includes/languages/trans_dash.php:479
 #: dash/addons/includes/languages/trans_dash.php:622
 msgid "one year"
 msgstr "یک سال"
 
 #: billboard/includes/languages/trans_addons.php:303
+#: billboard/includes/languages/trans_dash.php:480
 #: dash/addons/includes/languages/trans_dash.php:623
 msgid "6 months"
 msgstr "شش ماه"
 
 #: billboard/includes/languages/trans_addons.php:304
+#: billboard/includes/languages/trans_dash.php:481
 #: dash/addons/includes/languages/trans_dash.php:624
 msgid "3 months"
 msgstr "سه ماه"
 
 #: billboard/includes/languages/trans_addons.php:305
+#: billboard/includes/languages/trans_dash.php:482
 #: dash/addons/includes/languages/trans_dash.php:625
 msgid "2 months"
 msgstr "دو ماه"
 
 #: billboard/includes/languages/trans_addons.php:306
+#: billboard/includes/languages/trans_dash.php:483
 #: dash/addons/includes/languages/trans_dash.php:626
 msgid "one month"
 msgstr "یک ماه"
 
 #: billboard/includes/languages/trans_addons.php:307
+#: billboard/includes/languages/trans_dash.php:484
 #: dash/addons/includes/languages/trans_dash.php:627
 msgid "one week"
 msgstr "یک هفته"
 
 #: billboard/includes/languages/trans_addons.php:308
+#: billboard/includes/languages/trans_dash.php:485
 #: dash/addons/includes/languages/trans_dash.php:628
 msgid "2 weeks"
 msgstr "۲ هفته"
 
 #: billboard/includes/languages/trans_addons.php:309
+#: billboard/includes/languages/trans_dash.php:486
 #: dash/addons/includes/languages/trans_dash.php:629
 msgid "one day"
 msgstr "یک روز"
 
 #: billboard/includes/languages/trans_addons.php:310
+#: billboard/includes/languages/trans_dash.php:487
 #: dash/addons/includes/languages/trans_dash.php:630
 msgid "3 days"
 msgstr "۳ روز"
 
 #: billboard/includes/languages/trans_addons.php:311
+#: billboard/includes/languages/trans_dash.php:488
 #: dash/addons/includes/languages/trans_dash.php:631
 msgid "5 days"
 msgstr "۵ روز"
 
 #: billboard/includes/languages/trans_addons.php:314
+#: billboard/includes/languages/trans_dash.php:497
 #: dash/addons/includes/languages/trans_dash.php:492
 msgid "Search in :dbtabless"
 msgstr "جستجو در :dbtabless"
 
 #: billboard/includes/languages/trans_addons.php:315
+#: billboard/includes/languages/trans_dash.php:498
 #: dash/addons/includes/languages/trans_dash.php:493
 msgid "Try to start with add new :dbtables!"
 msgstr "با افزودن رکورد جدید تلاشی برای شروع داشته باشید!"
@@ -1265,38 +1478,45 @@ msgid "System master controll"
 msgstr "مدیریت فنی سیستم"
 
 #: billboard/includes/languages/trans_addons.php:319
+#: billboard/includes/languages/trans_dash.php:507
 #: dash/addons/includes/languages/trans_dash.php:635
 msgid "Raw table"
 msgstr "جدول‌های خام"
 
 #: billboard/includes/languages/trans_addons.php:320
+#: billboard/includes/languages/trans_dash.php:222
 #: dash/addons/includes/languages/trans_dash.php:286
 #: dash/addons/includes/languages/trans_static.php:149
 msgid "Control Panel"
 msgstr "کنترل پنل"
 
 #: billboard/includes/languages/trans_addons.php:321
+#: billboard/includes/languages/trans_dash.php:509
 #: dash/addons/includes/languages/trans_dash.php:565
 #: dash/addons/includes/languages/trans_static.php:160
 msgid "Tools"
 msgstr "ابزارها"
 
 #: billboard/includes/languages/trans_addons.php:322
+#: billboard/includes/languages/trans_dash.php:510
 #: dash/addons/includes/languages/trans_dash.php:566
 msgid "Transactions"
 msgstr "تراکنش‌ها"
 
 #: billboard/includes/languages/trans_addons.php:323
+#: billboard/includes/languages/trans_dash.php:511
 #: dash/addons/includes/languages/trans_dash.php:637
 msgid "Log items"
 msgstr "آیتم‌های لاگ"
 
 #: billboard/includes/languages/trans_addons.php:324
+#: billboard/includes/languages/trans_dash.php:512
 #: dash/addons/includes/languages/trans_dash.php:567
 msgid "Logs"
 msgstr "لاگ"
 
 #: billboard/includes/languages/trans_addons.php:325
+#: billboard/includes/languages/trans_dash.php:231
 #: dash/addons/includes/languages/trans_dash.php:344
 #: dash/addons/includes/languages/trans_static.php:100
 #: dash/addons/includes/languages/trans_static.php:978
@@ -1304,32 +1524,38 @@ msgid "Users"
 msgstr "کاربران"
 
 #: billboard/includes/languages/trans_addons.php:326
+#: billboard/includes/languages/trans_dash.php:513
 #: dash/addons/includes/languages/trans_dash.php:638
 msgid "Notifications"
 msgstr "اطلاع‌رسانی‌ها"
 
 #: billboard/includes/languages/trans_addons.php:327
+#: billboard/includes/languages/trans_dash.php:515
 #: dash/addons/includes/languages/trans_dash.php:640
 msgid "Send notify"
 msgstr "ارسال پیام"
 
 #: billboard/includes/languages/trans_addons.php:328
+#: billboard/includes/languages/trans_dash.php:516
 #: dash/addons/includes/languages/trans_dash.php:641
 msgid "Sample"
 msgstr "نمونه"
 
 #: billboard/includes/languages/trans_addons.php:331
+#: billboard/includes/languages/trans_dash.php:524
 #: dash/addons/includes/languages/trans_dash.php:534
 #: dash/addons/includes/languages/trans_static.php:401
 msgid "id"
 msgstr "کد"
 
 #: billboard/includes/languages/trans_addons.php:332
+#: billboard/includes/languages/trans_dash.php:525
 #: dash/addons/includes/languages/trans_dash.php:535
 msgid "invoice_id"
 msgstr "کد فاکتور"
 
 #: billboard/includes/languages/trans_addons.php:333
+#: billboard/includes/languages/trans_dash.php:526
 #: dash/addons/includes/languages/trans_dash.php:522
 #: dash/addons/includes/languages/trans_static.php:228
 #: dash/addons/includes/languages/trans_static.php:405
@@ -1337,256 +1563,306 @@ msgid "title"
 msgstr "عنوان"
 
 #: billboard/includes/languages/trans_addons.php:334
+#: billboard/includes/languages/trans_dash.php:527
 #: dash/addons/includes/languages/trans_dash.php:536
 msgid "price"
 msgstr "قیمت"
 
 #: billboard/includes/languages/trans_addons.php:335
+#: billboard/includes/languages/trans_dash.php:528
 #: dash/addons/includes/languages/trans_dash.php:537
 msgid "count"
 msgstr "تعداد"
 
 #: billboard/includes/languages/trans_addons.php:336
+#: billboard/includes/languages/trans_dash.php:529
 #: dash/addons/includes/languages/trans_dash.php:538
 msgid "total"
 msgstr "مجموع"
 
 #: billboard/includes/languages/trans_addons.php:337
+#: billboard/includes/languages/trans_dash.php:530
 #: dash/addons/includes/languages/trans_dash.php:539
 #: dash/addons/includes/languages/trans_static.php:898
 msgid "discount"
 msgstr "تخفیف"
 
 #: billboard/includes/languages/trans_addons.php:338
+#: billboard/includes/languages/trans_dash.php:531
 #: dash/addons/includes/languages/trans_dash.php:485
 msgid "desc"
 msgstr "توضیح"
 
 #: billboard/includes/languages/trans_addons.php:341
+#: billboard/includes/languages/trans_dash.php:534
 #: dash/addons/includes/languages/trans_dash.php:470
 msgid "ID"
 msgstr "شناسه"
 
 #: billboard/includes/languages/trans_addons.php:342
+#: billboard/includes/languages/trans_dash.php:535
 #: dash/addons/includes/languages/trans_dash.php:481
 msgid "User id"
 msgstr "کد کاربر"
 
 #: billboard/includes/languages/trans_addons.php:343
+#: billboard/includes/languages/trans_dash.php:536
 #: dash/addons/includes/languages/trans_dash.php:482
 msgid "Is Temp?"
 msgstr "موقتی است؟"
 
 #: billboard/includes/languages/trans_addons.php:344
+#: billboard/includes/languages/trans_dash.php:537
 #: dash/addons/includes/languages/trans_dash.php:483
 msgid "Total Discount"
 msgstr "جمع تخفیف"
 
 #: billboard/includes/languages/trans_addons.php:345
+#: billboard/includes/languages/trans_dash.php:538
 #: dash/addons/includes/languages/trans_dash.php:484
 msgid "Count Detail"
 msgstr "تعداد جزئیات"
 
 #: billboard/includes/languages/trans_addons.php:346
+#: billboard/includes/languages/trans_dash.php:199
 #: dash/addons/includes/languages/trans_dash.php:139
 msgid "Detail"
 msgstr "جزئیات"
 
 #: billboard/includes/languages/trans_addons.php:347
+#: billboard/includes/languages/trans_dash.php:539
 #: dash/addons/includes/languages/trans_dash.php:486
 msgid "Yes"
 msgstr "بلی"
 
 #: billboard/includes/languages/trans_addons.php:348
+#: billboard/includes/languages/trans_dash.php:540
 #: dash/addons/includes/languages/trans_dash.php:487
 msgid "No"
 msgstr "خیر"
 
 #: billboard/includes/languages/trans_addons.php:351
+#: billboard/includes/languages/trans_dash.php:551
 #: dash/addons/includes/languages/trans_dash.php:472
 msgid "Caller"
 msgstr "صداکننده"
 
 #: billboard/includes/languages/trans_addons.php:352
+#: billboard/includes/languages/trans_dash.php:552
 #: dash/addons/includes/languages/trans_dash.php:473
 msgid "Priority"
 msgstr "اولویت"
 
 #: billboard/includes/languages/trans_addons.php:353
+#: billboard/includes/languages/trans_dash.php:553
 #: dash/addons/includes/languages/trans_dash.php:530
 #: dash/addons/includes/languages/trans_static.php:415
 msgid "datecreated"
 msgstr "تاریخ‌ایجاد"
 
 #: billboard/includes/languages/trans_addons.php:354
+#: billboard/includes/languages/trans_dash.php:554
 #: dash/addons/includes/languages/trans_dash.php:531
 msgid "Click to show all logs by this logitems"
 msgstr "کلیک کنید تا تمامی لاگ‌هایی که با این عنوان ثبت شده است نمایش داده شود"
 
 #: billboard/includes/languages/trans_addons.php:357
+#: billboard/includes/languages/trans_dash.php:557
 #: dash/addons/includes/languages/trans_dash.php:520
 msgid "logitems Detail"
 msgstr "جزئیات لاگ آیتم"
 
 #: billboard/includes/languages/trans_addons.php:358
+#: billboard/includes/languages/trans_dash.php:558
 #: dash/addons/includes/languages/trans_dash.php:521
 msgid "caller"
 msgstr "صدا کننده"
 
 #: billboard/includes/languages/trans_addons.php:359
+#: billboard/includes/languages/trans_dash.php:559
 #: dash/addons/includes/languages/trans_dash.php:523
 msgid "priority"
 msgstr "اولویت"
 
 #: billboard/includes/languages/trans_addons.php:360
+#: billboard/includes/languages/trans_dash.php:560
 #: dash/addons/includes/languages/trans_dash.php:524
 msgid "Critical"
 msgstr "بحرانی"
 
 #: billboard/includes/languages/trans_addons.php:361
+#: billboard/includes/languages/trans_dash.php:561
 #: dash/addons/includes/languages/trans_dash.php:525
 msgid "High"
 msgstr "زیاد"
 
 #: billboard/includes/languages/trans_addons.php:362
+#: billboard/includes/languages/trans_dash.php:562
 #: dash/addons/includes/languages/trans_dash.php:526
 msgid "Medium"
 msgstr "متوسط"
 
 #: billboard/includes/languages/trans_addons.php:363
+#: billboard/includes/languages/trans_dash.php:563
 #: dash/addons/includes/languages/trans_dash.php:527
 msgid "Low"
 msgstr "کم"
 
 #: billboard/includes/languages/trans_addons.php:366
+#: billboard/includes/languages/trans_dash.php:566
 #: dash/addons/includes/languages/trans_dash.php:471
 msgid "Log item id"
 msgstr "کد آیتم لاگ"
 
 #: billboard/includes/languages/trans_addons.php:367
+#: billboard/includes/languages/trans_dash.php:567
 #: dash/addons/includes/languages/trans_dash.php:474
 msgid "User_id"
 msgstr "کد کاربر"
 
 #: billboard/includes/languages/trans_addons.php:368
+#: billboard/includes/languages/trans_dash.php:568
 #: dash/addons/includes/languages/trans_dash.php:475
 msgid "Data"
 msgstr "داده"
 
 #: billboard/includes/languages/trans_addons.php:369
+#: billboard/includes/languages/trans_dash.php:569
 #: dash/addons/includes/languages/trans_dash.php:476
 msgid "Desc"
 msgstr "توضیح"
 
 #: billboard/includes/languages/trans_addons.php:370
+#: billboard/includes/languages/trans_dash.php:570
 #: dash/addons/includes/languages/trans_dash.php:477
 msgid "createdate"
 msgstr "تاریخ ایجاد"
 
 #: billboard/includes/languages/trans_addons.php:371
+#: billboard/includes/languages/trans_dash.php:571
 #: dash/addons/includes/languages/trans_dash.php:478
 msgid "Meta"
 msgstr "متا"
 
 #: billboard/includes/languages/trans_addons.php:374
+#: billboard/includes/languages/trans_dash.php:543
 #: dash/addons/includes/languages/trans_dash.php:568
 msgid "Send Nofity"
 msgstr "ارسال پیام"
 
 #: billboard/includes/languages/trans_addons.php:375
+#: billboard/includes/languages/trans_dash.php:544
 #: dash/addons/includes/languages/trans_dash.php:569
 msgid "Sample Design"
 msgstr "نمونه دیزاین"
 
 #: billboard/includes/languages/trans_addons.php:378
+#: billboard/includes/languages/trans_dash.php:576
 #: dash/addons/includes/languages/trans_dash.php:675
 msgid "user_id"
 msgstr "کد کاربر"
 
 #: billboard/includes/languages/trans_addons.php:379
+#: billboard/includes/languages/trans_dash.php:577
 #: dash/addons/includes/languages/trans_dash.php:676
 msgid "user_idsender"
 msgstr "شناسه کاربر ارسال کننده"
 
 #: billboard/includes/languages/trans_addons.php:380
+#: billboard/includes/languages/trans_dash.php:578
 #: dash/addons/includes/languages/trans_dash.php:677
 msgid "content"
 msgstr "محتوا"
 
 #: billboard/includes/languages/trans_addons.php:381
+#: billboard/includes/languages/trans_dash.php:579
 #: dash/addons/includes/languages/trans_dash.php:678
 msgid "url"
 msgstr "نشانی اینترنتی"
 
 #: billboard/includes/languages/trans_addons.php:382
+#: billboard/includes/languages/trans_dash.php:580
 #: dash/addons/includes/languages/trans_dash.php:679
 msgid "read"
 msgstr "خوانده شده"
 
 #: billboard/includes/languages/trans_addons.php:383
+#: billboard/includes/languages/trans_dash.php:581
 #: dash/addons/includes/languages/trans_dash.php:680
 msgid "star"
 msgstr "ستاره"
 
 #: billboard/includes/languages/trans_addons.php:384
+#: billboard/includes/languages/trans_dash.php:582
 #: dash/addons/includes/languages/trans_dash.php:681
 #: dash/addons/includes/languages/trans_static.php:410
 msgid "status"
 msgstr "وضعیت"
 
 #: billboard/includes/languages/trans_addons.php:385
+#: billboard/includes/languages/trans_dash.php:583
 #: dash/addons/includes/languages/trans_dash.php:682
 #: dash/addons/includes/languages/trans_static.php:137
 msgid "category"
 msgstr "دسته"
 
 #: billboard/includes/languages/trans_addons.php:386
+#: billboard/includes/languages/trans_dash.php:584
 #: dash/addons/includes/languages/trans_dash.php:683
 msgid "senddate"
 msgstr "تاریخ ارسال"
 
 #: billboard/includes/languages/trans_addons.php:387
+#: billboard/includes/languages/trans_dash.php:585
 #: dash/addons/includes/languages/trans_dash.php:684
 msgid "deliverdate"
 msgstr "تاریخ دلیور"
 
 #: billboard/includes/languages/trans_addons.php:388
+#: billboard/includes/languages/trans_dash.php:586
 #: dash/addons/includes/languages/trans_dash.php:685
 msgid "expiredate"
 msgstr "تاریخ انقضا"
 
 #: billboard/includes/languages/trans_addons.php:389
+#: billboard/includes/languages/trans_dash.php:587
 #: dash/addons/includes/languages/trans_dash.php:686
 msgid "readdate"
 msgstr "تاریخ مشاهده"
 
 #: billboard/includes/languages/trans_addons.php:390
+#: billboard/includes/languages/trans_dash.php:588
 #: dash/addons/includes/languages/trans_dash.php:687
 msgid "gateway"
 msgstr "ورودی"
 
 #: billboard/includes/languages/trans_addons.php:391
+#: billboard/includes/languages/trans_dash.php:589
 #: dash/addons/includes/languages/trans_dash.php:688
 msgid "auto"
 msgstr "خودکار"
 
 #: billboard/includes/languages/trans_addons.php:392
+#: billboard/includes/languages/trans_dash.php:590
 #: dash/addons/includes/languages/trans_dash.php:689
 #: dash/addons/includes/languages/trans_static.php:416
 msgid "datemodified"
 msgstr "تاریخ ویرایش"
 
 #: billboard/includes/languages/trans_addons.php:395
+#: billboard/includes/languages/trans_dash.php:593
 #: dash/addons/includes/languages/trans_dash.php:496
 msgid "Change permission of user"
 msgstr "تغییر سطح‌دسترسی کاربر"
 
 #: billboard/includes/languages/trans_addons.php:396
+#: billboard/includes/languages/trans_dash.php:594
 #: dash/addons/includes/languages/trans_dash.php:497
 msgid "Permission cat"
 msgstr "سطح‌دسترسی فراخوانی"
 
 #: billboard/includes/languages/trans_addons.php:397
+#: billboard/includes/languages/trans_dash.php:595
 #: dash/addons/includes/languages/trans_dash.php:498
 msgid "Save change"
 msgstr "ذخیره‌کردن تغییرات"
@@ -1628,6 +1904,7 @@ msgid "Warn"
 msgstr "هشدار دادن"
 
 #: billboard/includes/languages/trans_addons.php:406
+#: billboard/includes/languages/trans_dash.php:519
 #: dash/addons/includes/languages/trans_dash.php:455
 msgid "Info"
 msgstr "درباره"
@@ -1713,6 +1990,7 @@ msgid "8"
 msgstr "8"
 
 #: billboard/includes/languages/trans_addons.php:427
+#: billboard/includes/languages/trans_dash.php:753
 #: dash/addons/includes/languages/trans_dash.php:731
 msgid "Next"
 msgstr "بعدی"
@@ -1730,6 +2008,7 @@ msgid "First Name"
 msgstr "نام"
 
 #: billboard/includes/languages/trans_addons.php:431
+#: billboard/includes/languages/trans_dash.php:79
 #: dash/addons/includes/languages/trans_dash.php:216
 msgid "Username"
 msgstr "نام‌کاربری"
@@ -2010,6 +2289,7 @@ msgid "This type of input filled only with readers, because of type speed!"
 msgstr "این نوع اینپوت، برای افزایش سرعت تایپ فقط توسط readerها پر می‌شود!"
 
 #: billboard/includes/languages/trans_addons.php:500
+#: billboard/includes/languages/trans_dash.php:742
 #: dash/addons/includes/languages/trans_dash.php:720
 msgid "Code"
 msgstr "کد"
@@ -2306,6 +2586,7 @@ msgid "Special use"
 msgstr "استفاده خاص"
 
 #: billboard/includes/languages/trans_addons.php:560
+#: billboard/includes/languages/trans_dash.php:92
 #: dash/addons/includes/languages/trans_dash.php:227
 msgid "Gender"
 msgstr "جنسیت"
@@ -2432,6 +2713,7 @@ msgid "complete example of crop in modal and show preview after that"
 msgstr "نمونه‌های کاملی از برش در مدل و پیشنمایش بعد از آن"
 
 #: billboard/includes/languages/trans_addons.php:597
+#: billboard/includes/languages/trans_dash.php:344
 #: dash/addons/includes/languages/trans_dash.php:95
 #: dash/addons/includes/languages/trans_static.php:90
 msgid "Cancel"
@@ -3232,11 +3514,13 @@ msgid "Default behaviour"
 msgstr "وضعیت پیشفرض"
 
 #: billboard/includes/languages/trans_addons.php:813
+#: billboard/includes/languages/trans_dash.php:93
 #: dash/addons/includes/languages/trans_dash.php:228
 msgid "Male"
 msgstr "مرد"
 
 #: billboard/includes/languages/trans_addons.php:814
+#: billboard/includes/languages/trans_dash.php:94
 #: dash/addons/includes/languages/trans_dash.php:229
 msgid "Female"
 msgstr "زن"
@@ -3486,14 +3770,17 @@ msgid "Easily change default select style to simple and clean Siftal design"
 msgstr "به راحتی استایل‌های پیشفرض را با استایل‌های ساده سیفتال تعویض کنید"
 
 #: billboard/includes/languages/trans_addons.php:877
+#: billboard/includes/languages/trans_project.php:16
 msgid "Sarshomar"
 msgstr "سرشمار"
 
 #: billboard/includes/languages/trans_addons.php:878
+#: billboard/includes/languages/trans_project.php:20
 msgid "Tejarak"
 msgstr "تجارک"
 
 #: billboard/includes/languages/trans_addons.php:879
+#: billboard/includes/languages/trans_project.php:12
 msgid "Azvir"
 msgstr "ازویر"
 
@@ -3502,6 +3789,7 @@ msgid "Talambar"
 msgstr "تلمبار"
 
 #: billboard/includes/languages/trans_addons.php:881
+#: billboard/includes/languages/trans_project.php:8
 msgid "Jibres"
 msgstr "جیبرس"
 
@@ -3900,36 +4188,43 @@ msgid "A card can be used in live with on and off status"
 msgstr "یک کارت می‌تواند درحالت فعال/غیرفعال استفاده شود"
 
 #: billboard/includes/languages/trans_addons.php:984
+#: billboard/includes/languages/trans_dash.php:694
 #: dash/addons/includes/languages/trans_dash.php:596
 msgid "Add new"
 msgstr "افزودن جدید"
 
 #: billboard/includes/languages/trans_addons.php:987
+#: billboard/includes/languages/trans_dash.php:598
 #: dash/addons/includes/languages/trans_dash.php:644
 msgid "Send every notification from every way to user"
 msgstr "ارسال هر پیامی از هر روشی به کاربر"
 
 #: billboard/includes/languages/trans_addons.php:988
+#: billboard/includes/languages/trans_dash.php:599
 #: dash/addons/includes/languages/trans_dash.php:645
 msgid "Mobile or user_id"
 msgstr "موبایل یا کد کاربر"
 
 #: billboard/includes/languages/trans_addons.php:989
+#: billboard/includes/languages/trans_dash.php:600
 #: dash/addons/includes/languages/trans_dash.php:646
 msgid "Find Connection way"
 msgstr "یافتن روش ارتباط"
 
 #: billboard/includes/languages/trans_addons.php:990
+#: billboard/includes/languages/trans_dash.php:601
 #: dash/addons/includes/languages/trans_dash.php:647
 msgid "Inner system notification"
 msgstr "پیام داخل سیستمی"
 
 #: billboard/includes/languages/trans_addons.php:991
+#: billboard/includes/languages/trans_dash.php:218
 #: dash/addons/includes/languages/trans_dash.php:87
 msgid "What do you want to send to this user?"
 msgstr "مایل به ارسال چه چیزی به این کاربر هستید؟"
 
 #: billboard/includes/languages/trans_addons.php:992
+#: billboard/includes/languages/trans_dash.php:219
 #: dash/addons/includes/languages/trans_dash.php:88
 msgid "Send"
 msgstr "ارسال"
@@ -3939,68 +4234,81 @@ msgid "Test shortURL function"
 msgstr "آزمایش تابع کوتاه‌کننده‌لینک"
 
 #: billboard/includes/languages/trans_addons.php:1001
+#: billboard/includes/languages/trans_dash.php:610
 #: dash/addons/includes/languages/trans_dash.php:461
 msgid "String or Number"
 msgstr "رشته یا شماره"
 
 #: billboard/includes/languages/trans_addons.php:1002
+#: billboard/includes/languages/trans_dash.php:611
 #: dash/addons/includes/languages/trans_dash.php:462
 msgid "Run"
 msgstr "اجرا"
 
 #: billboard/includes/languages/trans_addons.php:1003
+#: billboard/includes/languages/trans_dash.php:612
 #: dash/addons/includes/languages/trans_dash.php:463
 msgid "Encode"
 msgstr "رمزگذاری"
 
 #: billboard/includes/languages/trans_addons.php:1004
+#: billboard/includes/languages/trans_dash.php:613
 #: dash/addons/includes/languages/trans_dash.php:464
 msgid "Decode"
 msgstr "رمزگشایی"
 
 #: billboard/includes/languages/trans_addons.php:1007
+#: billboard/includes/languages/trans_dash.php:616
 #: dash/addons/includes/languages/trans_dash.php:660
 msgid "You can use our tools"
 msgstr "شما می‌توانید از ابزارهای ما استفاده کنید"
 
 #: billboard/includes/languages/trans_addons.php:1008
+#: billboard/includes/languages/trans_dash.php:617
 #: dash/addons/includes/languages/trans_dash.php:542
 msgid "If you dont know about this page, leave it!"
 msgstr "اگر چیزی در مورد این صفحه نمی‌دانید، آن را ترک کنید!"
 
 #: billboard/includes/languages/trans_addons.php:1009
+#: billboard/includes/languages/trans_dash.php:618
 #: dash/addons/includes/languages/trans_dash.php:661
 msgid "Special tools"
 msgstr "ابزارهای خاص"
 
 #: billboard/includes/languages/trans_addons.php:1010
+#: billboard/includes/languages/trans_dash.php:619
 #: dash/addons/includes/languages/trans_dash.php:557
 #: dash/addons/includes/languages/trans_static.php:977
 msgid "Backup"
 msgstr "پشتیبان‌گیری"
 
 #: billboard/includes/languages/trans_addons.php:1011
+#: billboard/includes/languages/trans_dash.php:620
 #: dash/addons/content_su/tools/sitemap/view.php:8
 #: dash/addons/includes/languages/trans_dash.php:662
 msgid "Sitemap"
 msgstr "نقشه‌ی سایت"
 
 #: billboard/includes/languages/trans_addons.php:1012
+#: billboard/includes/languages/trans_dash.php:625
 #: dash/addons/includes/languages/trans_dash.php:663
 msgid "Server information"
 msgstr "اطلاعات سرور"
 
 #: billboard/includes/languages/trans_addons.php:1013
+#: billboard/includes/languages/trans_dash.php:626
 #: dash/addons/includes/languages/trans_dash.php:664
 msgid "Log"
 msgstr "لاگ"
 
 #: billboard/includes/languages/trans_addons.php:1014
+#: billboard/includes/languages/trans_dash.php:627
 #: dash/addons/includes/languages/trans_dash.php:665
 msgid "Translation tools"
 msgstr "ابزارهای ترجمه"
 
 #: billboard/includes/languages/trans_addons.php:1015
+#: billboard/includes/languages/trans_dash.php:195
 #: dash/addons/content_su/update/view.php:21
 #: dash/addons/includes/languages/trans_dash.php:135
 #: dash/addons/includes/languages/trans_static.php:150
@@ -4008,11 +4316,13 @@ msgid "Update"
 msgstr "بروزرسانی"
 
 #: billboard/includes/languages/trans_addons.php:1018
+#: billboard/includes/languages/trans_dash.php:520
 #: dash/addons/includes/languages/trans_dash.php:456
 msgid "Show server info"
 msgstr "نمایش اطلاعات سرور"
 
 #: billboard/includes/languages/trans_addons.php:1019
+#: billboard/includes/languages/trans_dash.php:521
 #: dash/addons/includes/languages/trans_dash.php:457
 msgid "Show PHP info"
 msgstr "نمایش اطلاعات پی‌اچ‌پی"
@@ -4070,46 +4380,55 @@ msgid "telegram - Error Logs"
 msgstr "تلگرام - لاگ خطاها"
 
 #: billboard/includes/languages/trans_addons.php:1037
+#: billboard/includes/languages/trans_dash.php:633
 #: dash/addons/includes/languages/trans_dash.php:653
 msgid "Create sitemap automatically by click on this page"
 msgstr "با کلیک در این صفحه نقشه‌ی سایت را بطور خودکار ایجاد کنید"
 
 #: billboard/includes/languages/trans_addons.php:1038
+#: billboard/includes/languages/trans_dash.php:634
 #: dash/addons/includes/languages/trans_dash.php:654
 msgid "Base Sitemap"
 msgstr "سایت‌مپ اصلی"
 
 #: billboard/includes/languages/trans_addons.php:1039
+#: billboard/includes/languages/trans_dash.php:635
 #: dash/addons/includes/languages/trans_dash.php:655
 msgid "Sitemap Detail"
 msgstr "جزئیات سایت‌مپ"
 
 #: billboard/includes/languages/trans_addons.php:1040
+#: billboard/includes/languages/trans_dash.php:636
 #: dash/addons/includes/languages/trans_dash.php:656
 msgid "Create it Again"
 msgstr "دوباره بسازش"
 
 #: billboard/includes/languages/trans_addons.php:1041
+#: billboard/includes/languages/trans_dash.php:637
 #: dash/addons/includes/languages/trans_dash.php:657
 msgid "Create Sitemap Result"
 msgstr "ایجاد نتیجه نقشه سایت"
 
 #: billboard/includes/languages/trans_addons.php:1044
+#: billboard/includes/languages/trans_dash.php:640
 #: dash/addons/includes/languages/trans_dash.php:668
 msgid "Translate"
 msgstr "ترجمه"
 
 #: billboard/includes/languages/trans_addons.php:1045
+#: billboard/includes/languages/trans_dash.php:642
 #: dash/addons/includes/languages/trans_dash.php:670
 msgid "Extract twig trans func in current project"
 msgstr "بیرون کشیدن متن‌های قابل ترجمه توئیگ از پروژه جاری"
 
 #: billboard/includes/languages/trans_addons.php:1046
+#: billboard/includes/languages/trans_dash.php:643
 #: dash/addons/includes/languages/trans_dash.php:671
 msgid "Extract twig trans func in dash addons"
 msgstr "استخراج توابع ترجمه توییگ در دش"
 
 #: billboard/includes/languages/trans_addons.php:1047
+#: billboard/includes/languages/trans_dash.php:644
 #: dash/addons/includes/languages/trans_dash.php:672
 msgid "Extract twig trans func in dash addons and update on dash addons"
 msgstr "استخراج توابع ترجمه توییگ در دش به‌همراه بروزرسانی آن در هسته"
@@ -4135,16 +4454,19 @@ msgid "Database"
 msgstr "پایگاه‌داده"
 
 #: billboard/includes/languages/trans_addons.php:1055
+#: billboard/includes/languages/trans_dash.php:682
 #: dash/addons/includes/languages/trans_dash.php:556
 msgid "Upgrade"
 msgstr "ارتقا"
 
 #: billboard/includes/languages/trans_addons.php:1056
+#: billboard/includes/languages/trans_dash.php:683
 #: dash/addons/includes/languages/trans_dash.php:558
 msgid "Backup by dump"
 msgstr "پشتیبان با دامپ"
 
 #: billboard/includes/languages/trans_addons.php:1057
+#: billboard/includes/languages/trans_dash.php:684
 #: dash/addons/includes/languages/trans_dash.php:559
 msgid "Submit"
 msgstr "تایید"
@@ -4158,94 +4480,112 @@ msgid "Automatically read database and create sql files"
 msgstr "خواندن دیتابیس و ساخت خودکار فایل‌های اس کیو ال آن"
 
 #: billboard/includes/languages/trans_addons.php:1062
+#: billboard/includes/languages/trans_dash.php:647
 #: dash/addons/includes/languages/trans_dash.php:501
 #: dash/addons/includes/languages/trans_static.php:414
 msgid "type"
 msgstr "نوع"
 
 #: billboard/includes/languages/trans_addons.php:1063
+#: billboard/includes/languages/trans_dash.php:302
 #: dash/addons/includes/languages/trans_dash.php:274
 msgid "Please select one item"
 msgstr "لطفا یک گزینه را انتخاب کنید"
 
 #: billboard/includes/languages/trans_addons.php:1064
+#: billboard/includes/languages/trans_dash.php:648
 #: dash/addons/includes/languages/trans_dash.php:502
 msgid "Money"
 msgstr "پول"
 
 #: billboard/includes/languages/trans_addons.php:1065
+#: billboard/includes/languages/trans_dash.php:649
 #: dash/addons/includes/languages/trans_dash.php:503
 msgid "Gift"
 msgstr "هدیه"
 
 #: billboard/includes/languages/trans_addons.php:1066
+#: billboard/includes/languages/trans_dash.php:650
 #: dash/addons/includes/languages/trans_dash.php:504
 msgid "Transfer"
 msgstr "انتقال"
 
 #: billboard/includes/languages/trans_addons.php:1067
+#: billboard/includes/languages/trans_dash.php:651
 #: dash/addons/includes/languages/trans_dash.php:505
 msgid "Prize"
 msgstr "جایزه"
 
 #: billboard/includes/languages/trans_addons.php:1068
+#: billboard/includes/languages/trans_dash.php:652
 #: dash/addons/includes/languages/trans_dash.php:506
 msgid "Unit"
 msgstr "واحد"
 
 #: billboard/includes/languages/trans_addons.php:1069
+#: billboard/includes/languages/trans_dash.php:90
 #: dash/addons/includes/languages/trans_dash.php:86
 #: dash/addons/includes/languages/trans_static.php:166
 msgid "Mobile"
 msgstr "موبایل"
 
 #: billboard/includes/languages/trans_addons.php:1070
+#: billboard/includes/languages/trans_dash.php:654
 #: dash/addons/includes/languages/trans_dash.php:508
 msgid "Minus"
 msgstr "هدر رفت"
 
 #: billboard/includes/languages/trans_addons.php:1071
+#: billboard/includes/languages/trans_dash.php:655
 #: dash/addons/includes/languages/trans_dash.php:509
 msgid "Plus"
 msgstr "افزودن"
 
 #: billboard/includes/languages/trans_addons.php:1074
+#: billboard/includes/languages/trans_dash.php:658
 #: dash/addons/includes/languages/trans_dash.php:512
 msgid "Search in :transactionss"
 msgstr "جستجو در تراکنش‌ها"
 
 #: billboard/includes/languages/trans_addons.php:1075
+#: billboard/includes/languages/trans_dash.php:264
 #: dash/addons/includes/languages/trans_dash.php:94
 msgid "User"
 msgstr "کاربر"
 
 #: billboard/includes/languages/trans_addons.php:1076
+#: billboard/includes/languages/trans_dash.php:659
 #: dash/addons/includes/languages/trans_dash.php:513
 msgid "Budget before"
 msgstr "بودجه قبل"
 
 #: billboard/includes/languages/trans_addons.php:1077
+#: billboard/includes/languages/trans_dash.php:660
 #: dash/addons/includes/languages/trans_dash.php:514
 msgid "Budget"
 msgstr "بودجه"
 
 #: billboard/includes/languages/trans_addons.php:1078
+#: billboard/includes/languages/trans_dash.php:661
 #: dash/addons/includes/languages/trans_dash.php:515
 msgid "Condition"
 msgstr "قانون"
 
 #: billboard/includes/languages/trans_addons.php:1079
+#: billboard/includes/languages/trans_dash.php:662
 #: dash/addons/content_enter/verify/view.php:96
 #: dash/addons/includes/languages/trans_dash.php:516
 msgid "Verify"
 msgstr "اعتبارسنجی"
 
 #: billboard/includes/languages/trans_addons.php:1080
+#: billboard/includes/languages/trans_dash.php:663
 #: dash/addons/includes/languages/trans_dash.php:517
 msgid "Try to start with add new :transactions!"
 msgstr "با افزودن رکورد جدید تلاشی برای شروع داشته باشید!"
 
 #: billboard/includes/languages/trans_addons.php:1083
+#: billboard/includes/languages/trans_dash.php:232
 #: dash/addons/content_cp/users/home/view.php:18
 #: dash/addons/content_cp/users/set/view.php:12
 #: dash/addons/includes/languages/trans_dash.php:345
@@ -4253,216 +4593,258 @@ msgid "Add new user"
 msgstr "افزودن کاربر جدید"
 
 #: billboard/includes/languages/trans_addons.php:1086
+#: billboard/includes/languages/trans_dash.php:689
 #: dash/addons/content_cp/users/view/view.php:13
 #: dash/addons/includes/languages/trans_dash.php:601
 msgid "User detail"
 msgstr "جزئیات‌کاربران"
 
 #: billboard/includes/languages/trans_addons.php:1087
+#: billboard/includes/languages/trans_dash.php:690
 #: dash/addons/includes/languages/trans_dash.php:602
 #: dash/addons/includes/languages/trans_static.php:115
 msgid "Key"
 msgstr "کلید"
 
 #: billboard/includes/languages/trans_addons.php:1090
+#: billboard/includes/languages/trans_dash.php:693
 #: dash/addons/includes/languages/trans_dash.php:595
 msgid "Users list"
 msgstr "لیست‌کاربران"
 
 #: billboard/includes/languages/trans_addons.php:1091
+#: billboard/includes/languages/trans_dash.php:273
 #: dash/addons/includes/languages/trans_dash.php:321
 msgid "Parent"
 msgstr "والد"
 
 #: billboard/includes/languages/trans_addons.php:1092
+#: billboard/includes/languages/trans_dash.php:695
 #: dash/addons/includes/languages/trans_dash.php:597
 msgid "Avatar"
 msgstr "آواتار"
 
 #: billboard/includes/languages/trans_addons.php:1093
+#: billboard/includes/languages/trans_dash.php:696
 #: dash/addons/includes/languages/trans_dash.php:598
 msgid "More"
 msgstr "بیشتر"
 
 #: billboard/includes/languages/trans_addons.php:1094
+#: billboard/includes/languages/trans_dash.php:102
 #: dash/addons/includes/languages/trans_dash.php:236
 msgid "Permission"
 msgstr "سطح‌دسترسی"
 
 #: billboard/includes/languages/trans_addons.php:1097
+#: billboard/includes/languages/trans_dash.php:699
 #: dash/addons/includes/languages/trans_dash.php:574
 msgid "Edit user detail"
 msgstr "ویرایش‌کردن جزئیات‌‌کاربر"
 
 #: billboard/includes/languages/trans_addons.php:1098
+#: billboard/includes/languages/trans_dash.php:700
 #: dash/addons/includes/languages/trans_dash.php:575
 msgid "Enter a valid name from 3 to 40 character"
 msgstr "نام معتبری بین ۳ تا ۳۰ کاراکتر وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:1099
+#: billboard/includes/languages/trans_dash.php:701
 #: dash/addons/includes/languages/trans_dash.php:576
 msgid "Last name"
 msgstr "نام‌خانوادگی"
 
 #: billboard/includes/languages/trans_addons.php:1100
+#: billboard/includes/languages/trans_dash.php:702
 #: dash/addons/includes/languages/trans_dash.php:577
 msgid "allowed extentions jpg, png (gif for bussiness plans). Max 500Kb"
 msgstr ""
 "پسوندهای مجاز jpg و png هستند‌(‌gif برای پلن‌های تجاری). حداکثر حجم مجاز ۵۰۰ کیلوبایت"
 
 #: billboard/includes/languages/trans_addons.php:1101
+#: billboard/includes/languages/trans_dash.php:703
 #: dash/addons/includes/languages/trans_dash.php:578
 msgid "National code"
 msgstr "کد ملی"
 
 #: billboard/includes/languages/trans_addons.php:1102
+#: billboard/includes/languages/trans_dash.php:704
 #: dash/addons/includes/languages/trans_dash.php:579
 msgid "Father name"
 msgstr "نام پدر"
 
 #: billboard/includes/languages/trans_addons.php:1103
+#: billboard/includes/languages/trans_dash.php:85
 #: dash/addons/includes/languages/trans_dash.php:222
 msgid "Birthday"
 msgstr "تاریخ تولد"
 
 #: billboard/includes/languages/trans_addons.php:1104
+#: billboard/includes/languages/trans_dash.php:705
 #: dash/addons/includes/languages/trans_dash.php:580
 msgid "Marital"
 msgstr "وضعیت تاهل"
 
 #: billboard/includes/languages/trans_addons.php:1105
+#: billboard/includes/languages/trans_dash.php:706
 #: dash/addons/includes/languages/trans_dash.php:581
 msgid "Single"
 msgstr "مجرد"
 
 #: billboard/includes/languages/trans_addons.php:1106
+#: billboard/includes/languages/trans_dash.php:707
 #: dash/addons/includes/languages/trans_dash.php:582
 msgid "Married"
 msgstr "متاهل"
 
 #: billboard/includes/languages/trans_addons.php:1107
+#: billboard/includes/languages/trans_dash.php:708
 #: dash/addons/includes/languages/trans_dash.php:583
 msgid "Child count"
 msgstr "تعداد فرزندان"
 
 #: billboard/includes/languages/trans_addons.php:1108
+#: billboard/includes/languages/trans_dash.php:709
 #: dash/addons/includes/languages/trans_dash.php:584
 msgid "Birth city"
 msgstr "شهر محل تولد"
 
 #: billboard/includes/languages/trans_addons.php:1109
+#: billboard/includes/languages/trans_dash.php:710
 #: dash/addons/includes/languages/trans_dash.php:585
 msgid "Sh from"
 msgstr "محل صدور شناسنامه"
 
 #: billboard/includes/languages/trans_addons.php:1110
+#: billboard/includes/languages/trans_dash.php:711
 #: dash/addons/includes/languages/trans_dash.php:586
 msgid "Sh code"
 msgstr "شماره شناسنامه"
 
 #: billboard/includes/languages/trans_addons.php:1111
+#: billboard/includes/languages/trans_dash.php:712
 #: dash/addons/includes/languages/trans_dash.php:587
 msgid "Last education"
 msgstr "آخرین مدرک تحصیلی"
 
 #: billboard/includes/languages/trans_addons.php:1112
+#: billboard/includes/languages/trans_dash.php:713
 #: dash/addons/includes/languages/trans_dash.php:588
 msgid "Job"
 msgstr "شغل"
 
 #: billboard/includes/languages/trans_addons.php:1113
+#: billboard/includes/languages/trans_dash.php:714
 #: dash/addons/includes/languages/trans_dash.php:589
 msgid "Pasport code"
 msgstr "شماره گذرنامه"
 
 #: billboard/includes/languages/trans_addons.php:1114
+#: billboard/includes/languages/trans_dash.php:715
 #: dash/addons/includes/languages/trans_dash.php:590
 msgid "Pasport expire"
 msgstr "تاریخ اتمام اعتبار گذرنامه"
 
 #: billboard/includes/languages/trans_addons.php:1115
+#: billboard/includes/languages/trans_dash.php:716
 #: dash/addons/includes/languages/trans_dash.php:591
 msgid "Bank account number"
 msgstr "شماره حساب بانکی"
 
 #: billboard/includes/languages/trans_addons.php:1116
+#: billboard/includes/languages/trans_dash.php:717
 #: dash/addons/includes/languages/trans_dash.php:592
 msgid "Last education degree"
 msgstr "معدل آخرین مدرک تحصیلی"
 
 #: billboard/includes/languages/trans_addons.php:1119
+#: billboard/includes/languages/trans_dash.php:720
 #: dash/addons/content_account/profile/view.php:10
 #: dash/addons/includes/languages/trans_dash.php:692
 msgid "Edit your profile"
 msgstr "پروفایل خود را ویرایش کنید"
 
 #: billboard/includes/languages/trans_addons.php:1120
+#: billboard/includes/languages/trans_dash.php:721
 #: dash/addons/includes/languages/trans_dash.php:693
 msgid "Avatar of you"
 msgstr "آواتار شما"
 
 #: billboard/includes/languages/trans_addons.php:1121
+#: billboard/includes/languages/trans_dash.php:722
 #: dash/addons/includes/languages/trans_dash.php:694
 msgid "Default Avatar"
 msgstr "آواتار پیش‌فرض"
 
 #: billboard/includes/languages/trans_addons.php:1122
+#: billboard/includes/languages/trans_dash.php:723
 #: dash/addons/includes/languages/trans_dash.php:695
 msgid "Hello"
 msgstr "سلام"
 
 #: billboard/includes/languages/trans_addons.php:1123
+#: billboard/includes/languages/trans_dash.php:725
 #: dash/addons/includes/languages/trans_dash.php:697
 msgid "View website"
 msgstr "مشاهده وب‌سایت"
 
 #: billboard/includes/languages/trans_addons.php:1124
+#: billboard/includes/languages/trans_dash.php:726
 #: dash/addons/includes/languages/trans_dash.php:698
 msgid "Work in your language"
 msgstr "به زبان خود کار کنید"
 
 #: billboard/includes/languages/trans_addons.php:1125
+#: billboard/includes/languages/trans_dash.php:727
 #: dash/addons/includes/languages/trans_dash.php:699
 #: dash/addons/includes/languages/trans_static.php:104
 msgid "Logout"
 msgstr "خروج از سیستم"
 
 #: billboard/includes/languages/trans_addons.php:1126
+#: billboard/includes/languages/trans_dash.php:728
 #: dash/addons/includes/languages/trans_dash.php:700
 msgid "View your current location and navigate to parent of it"
 msgstr "مکان فعلی خود را دیده و به مکان‌های والد آن منتقل شوید"
 
 #: billboard/includes/languages/trans_addons.php:1129
+#: billboard/includes/languages/trans_dash.php:731
 #: dash/addons/includes/languages/trans_dash.php:709
 msgid "Please enter valid mobile number"
 msgstr "لطفا شماره موبایل معتبری وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:1130
+#: billboard/includes/languages/trans_dash.php:732
 #: dash/addons/includes/languages/trans_dash.php:710
 msgid "Enter correct iranian mobile from 10 to 14 character"
 msgstr "شماره موبایل صحیح ایران باید بین ۱۰ تا ۱۴ رقم باشد"
 
 #: billboard/includes/languages/trans_addons.php:1131
+#: billboard/includes/languages/trans_dash.php:733
 #: dash/addons/includes/languages/trans_dash.php:711
 msgid "7 to 15 characters is allowed for mobile"
 msgstr "بین ۷ تا ۱۵ رقم برای موبایل مجاز است"
 
 #: billboard/includes/languages/trans_addons.php:1132
+#: billboard/includes/languages/trans_dash.php:734
 #: dash/addons/includes/languages/trans_dash.php:712
 msgid "Username or Mobile or email"
 msgstr "نام‌کاربری یا موبایل یا رایانامه"
 
 #: billboard/includes/languages/trans_addons.php:1133
+#: billboard/includes/languages/trans_dash.php:735
 #: dash/addons/includes/languages/trans_dash.php:713
 msgid "Username or Mobile or Email"
 msgstr "نام‌کاربری یا موبایل یا رایانامه"
 
 #: billboard/includes/languages/trans_addons.php:1134
+#: billboard/includes/languages/trans_dash.php:736
 #: dash/addons/includes/languages/trans_dash.php:714
 msgid "Please enter valid mobile or username or email number"
 msgstr "لطفا نام‌کاربری یا موبایل یا رایانامه معتبری وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:1135
+#: billboard/includes/languages/trans_dash.php:358
 #: dash/addons/content_enter/pass/view.php:10
 #: dash/addons/includes/languages/trans_dash.php:238
 #: dash/addons/includes/languages/trans_static.php:167
@@ -4470,171 +4852,205 @@ msgid "Password"
 msgstr "کلمه عبور"
 
 #: billboard/includes/languages/trans_addons.php:1136
+#: billboard/includes/languages/trans_dash.php:737
 #: dash/addons/includes/languages/trans_dash.php:715
 msgid "Enter a valid password from 6 to 40 character"
 msgstr "گذرواژه‌ای معتبر بین ۶ تا ۴۰ کاراکتر انتخاب کنید"
 
 #: billboard/includes/languages/trans_addons.php:1137
+#: billboard/includes/languages/trans_dash.php:738
 #: dash/addons/includes/languages/trans_dash.php:716
 #: dash/addons/includes/languages/trans_static.php:339
 msgid "New Password"
 msgstr "گذرواژه جدید"
 
 #: billboard/includes/languages/trans_addons.php:1138
+#: billboard/includes/languages/trans_dash.php:739
 #: dash/addons/includes/languages/trans_dash.php:717
 msgid "Password?"
 msgstr "کلمه عبور؟"
 
 #: billboard/includes/languages/trans_addons.php:1139
+#: billboard/includes/languages/trans_dash.php:740
 #: dash/addons/includes/languages/trans_dash.php:718
 msgid "Verify Code"
 msgstr "کد اعتبارسنجی"
 
 #: billboard/includes/languages/trans_addons.php:1140
+#: billboard/includes/languages/trans_dash.php:741
 #: dash/addons/includes/languages/trans_dash.php:719
 msgid "Enter a valid code!"
 msgstr "کد معتبر وارد کنید!"
 
 #: billboard/includes/languages/trans_addons.php:1141
+#: billboard/includes/languages/trans_dash.php:743
 #: dash/addons/includes/languages/trans_dash.php:721
 msgid "Send this code to our number!"
 msgstr "این کد را به شماره‌ی ما پیامک کنید!"
 
 #: billboard/includes/languages/trans_addons.php:1142
+#: billboard/includes/languages/trans_dash.php:744
 #: dash/addons/includes/languages/trans_dash.php:722
 msgid "send to this number"
 msgstr "به این شماره پیامک کنید"
 
 #: billboard/includes/languages/trans_addons.php:1143
+#: billboard/includes/languages/trans_dash.php:745
 #: dash/addons/includes/languages/trans_dash.php:723
 msgid "Send code to this number!"
 msgstr "کد را به این شماره ارسال کنید!"
 
 #: billboard/includes/languages/trans_addons.php:1144
+#: billboard/includes/languages/trans_dash.php:746
 #: dash/addons/includes/languages/trans_dash.php:724
 msgid "Full name"
 msgstr "نام کامل"
 
 #: billboard/includes/languages/trans_addons.php:1145
+#: billboard/includes/languages/trans_dash.php:748
 #: dash/addons/includes/languages/trans_dash.php:726
 msgid "Enter a valid eamil!"
 msgstr "رایانامه‌ی معتبر را وارد کنید!"
 
 #: billboard/includes/languages/trans_addons.php:1146
+#: billboard/includes/languages/trans_dash.php:749
 #: dash/addons/includes/languages/trans_dash.php:727
 #: dash/addons/includes/languages/trans_static.php:402
 msgid "username"
 msgstr "نام‌کاربری"
 
 #: billboard/includes/languages/trans_addons.php:1147
+#: billboard/includes/languages/trans_dash.php:750
 #: dash/addons/includes/languages/trans_dash.php:728
 msgid "Enter a valid username from 4 to 50 character"
 msgstr "نام‌کاربری معتبری بین ۴ تا ۵۰ کاراکتر وارد کنید"
 
 #: billboard/includes/languages/trans_addons.php:1148
+#: billboard/includes/languages/trans_dash.php:752
 #: dash/addons/includes/languages/trans_dash.php:730
 msgid "Go and check it"
 msgstr "برو و چک کن"
 
 #: billboard/includes/languages/trans_addons.php:1149
+#: billboard/includes/languages/trans_dash.php:755
 #: dash/addons/includes/languages/trans_dash.php:733
 #: dash/addons/includes/languages/trans_static.php:170
 msgid "Login"
 msgstr "ورود به سیستم"
 
 #: billboard/includes/languages/trans_addons.php:1150
+#: billboard/includes/languages/trans_dash.php:758
 #: dash/addons/includes/languages/trans_dash.php:736
 msgid "Create Account"
 msgstr "ساخت حساب‌کاربری"
 
 #: billboard/includes/languages/trans_addons.php:1151
+#: billboard/includes/languages/trans_dash.php:759
 #: dash/addons/includes/languages/trans_dash.php:737
 msgid "Signup"
 msgstr "ثبت‌نام"
 
 #: billboard/includes/languages/trans_addons.php:1152
+#: billboard/includes/languages/trans_dash.php:760
 #: dash/addons/content_enter/pass/view.php:22
 #: dash/addons/includes/languages/trans_dash.php:738
 msgid "Set Password"
 msgstr "تنظیم گذرواژه"
 
 #: billboard/includes/languages/trans_addons.php:1153
+#: billboard/includes/languages/trans_dash.php:761
 #: dash/addons/includes/languages/trans_dash.php:739
 msgid "Recovery password"
 msgstr "بازیابی گذرواژه"
 
 #: billboard/includes/languages/trans_addons.php:1154
+#: billboard/includes/languages/trans_dash.php:762
 #: dash/addons/content_enter/pass/recovery/model.php:27
 #: dash/addons/includes/languages/trans_dash.php:740
 msgid "Enter"
 msgstr "ورود"
 
 #: billboard/includes/languages/trans_addons.php:1155
+#: billboard/includes/languages/trans_dash.php:763
 #: dash/addons/includes/languages/trans_dash.php:741
 msgid "Enter with another methods"
 msgstr "ورود با سایر روش‌ها"
 
 #: billboard/includes/languages/trans_addons.php:1156
+#: billboard/includes/languages/trans_dash.php:764
 #: dash/addons/includes/languages/trans_dash.php:742
 msgid "Log in with mobile"
 msgstr "ورود با موبایل"
 
 #: billboard/includes/languages/trans_addons.php:1157
+#: billboard/includes/languages/trans_dash.php:765
 #: dash/addons/includes/languages/trans_dash.php:743
 msgid "Enter with mobile"
 msgstr "ورود با موبایل"
 
 #: billboard/includes/languages/trans_addons.php:1158
+#: billboard/includes/languages/trans_dash.php:766
 #: dash/addons/includes/languages/trans_dash.php:744
 msgid "Enter with Google"
 msgstr "ورود با گوگل"
 
 #: billboard/includes/languages/trans_addons.php:1159
+#: billboard/includes/languages/trans_dash.php:767
 #: dash/addons/includes/languages/trans_dash.php:745
 msgid "Enter with email"
 msgstr "ورود با رایانامه"
 
 #: billboard/includes/languages/trans_addons.php:1160
+#: billboard/includes/languages/trans_dash.php:768
 #: dash/addons/includes/languages/trans_dash.php:746
 msgid "Enter with username"
 msgstr "ورود با نام‌کاربری"
 
 #: billboard/includes/languages/trans_addons.php:1161
+#: billboard/includes/languages/trans_dash.php:769
 #: dash/addons/includes/languages/trans_dash.php:747
 msgid "Resend code"
 msgstr "ارسال دوباره‌ی کد"
 
 #: billboard/includes/languages/trans_addons.php:1162
+#: billboard/includes/languages/trans_dash.php:770
 #: dash/addons/includes/languages/trans_dash.php:748
 msgid "After end timer you can request code again"
 msgstr "پس از به‌اتمام رسیدن زمان، شما امکان درخواست مجدد کد را خواهید داشت"
 
 #: billboard/includes/languages/trans_addons.php:1163
+#: billboard/includes/languages/trans_dash.php:771
 #: dash/addons/includes/languages/trans_dash.php:749
 msgid "Another way?"
 msgstr "روش دیگر؟"
 
 #: billboard/includes/languages/trans_addons.php:1164
+#: billboard/includes/languages/trans_dash.php:772
 #: dash/addons/includes/languages/trans_dash.php:750
 msgid "Restart with new mobile"
 msgstr "شروع دوباره با موبایل جدید"
 
 #: billboard/includes/languages/trans_addons.php:1165
+#: billboard/includes/languages/trans_dash.php:773
 #: dash/addons/includes/languages/trans_dash.php:751
 msgid "New email"
 msgstr "رایانامه‌ی جدید"
 
 #: billboard/includes/languages/trans_addons.php:1166
+#: billboard/includes/languages/trans_dash.php:774
 #: dash/addons/includes/languages/trans_dash.php:752
 msgid "New username"
 msgstr "نام کاربری جدید"
 
 #: billboard/includes/languages/trans_addons.php:1167
+#: billboard/includes/languages/trans_dash.php:775
 #: dash/addons/includes/languages/trans_dash.php:753
 msgid "Enter a valid username!"
 msgstr "نام کاربری معتبر وارد کنید!"
 
 #: billboard/includes/languages/trans_addons.php:1172
+#: billboard/includes/languages/trans_dash.php:667
+#: billboard/includes/languages/trans_project.php:26
 #: billboard/includes/languages/trans_twig.php:53
 #: dash/addons/includes/languages/trans_dash.php:544
 #: dash/addons/includes/languages/trans_static.php:7
@@ -4799,6 +5215,7 @@ msgid "KB"
 msgstr "کیلوبایت"
 
 #: billboard/includes/languages/trans_addons.php:1204
+#: billboard/includes/languages/trans_dash.php:630
 #: dash/addons/includes/languages/trans_dash.php:650
 #: dash/addons/includes/languages/trans_static.php:49 dash/lib/utility/upload.php:92
 msgid "MB"
@@ -4980,6 +5397,7 @@ msgid "or"
 msgstr "یا"
 
 #: billboard/includes/languages/trans_addons.php:1239
+#: billboard/includes/languages/trans_dash.php:338
 #: dash/addons/includes/languages/trans_dash.php:102
 #: dash/addons/includes/languages/trans_static.php:92
 msgid "Delete"
@@ -5415,6 +5833,7 @@ msgid "permissions"
 msgstr "سطوح‌دسترسی"
 
 #: billboard/includes/languages/trans_addons.php:1323
+#: billboard/includes/languages/trans_dash.php:233
 #: dash/addons/content_cp/permission/view.php:11
 #: dash/addons/includes/languages/trans_dash.php:346
 #: dash/addons/includes/languages/trans_static.php:209
@@ -5578,6 +5997,7 @@ msgid "Github"
 msgstr "گیت‌هاب"
 
 #: billboard/includes/languages/trans_addons.php:1354
+#: billboard/includes/languages/trans_dash.php:71
 #: dash/addons/includes/languages/trans_dash.php:208
 #: dash/addons/includes/languages/trans_static.php:254
 msgid "Linkedin"
@@ -6456,6 +6876,991 @@ msgstr "زرین پال"
 msgid "Payir"
 msgstr "پی‌آی‌آر"
 
+#: billboard/includes/languages/trans_dash.php:54
+#: dash/addons/includes/languages/trans_dash.php:192
+msgid "Name and Global Details"
+msgstr "نام و جزئیات عمومی"
+
+#: billboard/includes/languages/trans_dash.php:55
+#: dash/addons/includes/languages/trans_dash.php:193
+msgid "Email and Social Networks"
+msgstr "رایانامه و شبکه‌های اجتماعی"
+
+#: billboard/includes/languages/trans_dash.php:56
+#: dash/addons/includes/languages/trans_dash.php:194
+msgid "Security and Enter"
+msgstr "امنیت و ورود"
+
+#: billboard/includes/languages/trans_dash.php:57
+#: dash/addons/includes/languages/trans_dash.php:195
+msgid "Improve User Experience"
+msgstr "بهبود تجربه کاربری"
+
+#: billboard/includes/languages/trans_dash.php:58
+#: dash/addons/includes/languages/trans_dash.php:196
+msgid "Two step verification"
+msgstr "ورود دو مرحله ای"
+
+#: billboard/includes/languages/trans_dash.php:59
+#: dash/addons/includes/languages/trans_dash.php:197
+msgid "Show sidebar"
+msgstr "نمایش نوار کناری"
+
+#: billboard/includes/languages/trans_dash.php:60
+#: dash/addons/includes/languages/trans_dash.php:198
+msgid "Default language"
+msgstr "زبان پیشفرض"
+
+#: billboard/includes/languages/trans_dash.php:61
+#: dash/addons/includes/languages/trans_dash.php:199
+msgid "Select one item"
+msgstr "یکی از موارد را انتخاب کنید"
+
+#: billboard/includes/languages/trans_dash.php:62
+#: dash/addons/includes/languages/trans_dash.php:125
+msgid "Website"
+msgstr "وب‌سایت"
+
+#: billboard/includes/languages/trans_dash.php:63
+#: dash/addons/includes/languages/trans_dash.php:200
+msgid "like"
+msgstr "مثل"
+
+#: billboard/includes/languages/trans_dash.php:64
+#: dash/addons/includes/languages/trans_dash.php:201
+msgid "Enter a valid website from 3 to 40 character"
+msgstr "وبسایت معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:65
+#: dash/addons/includes/languages/trans_dash.php:202
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+#: billboard/includes/languages/trans_dash.php:66
+#: dash/addons/includes/languages/trans_dash.php:203
+msgid "Enter a valid instagram from 3 to 40 character"
+msgstr "شناسه اینستاگرام معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:67
+#: dash/addons/includes/languages/trans_dash.php:204
+msgid "Facebook"
+msgstr "فیس‌بوک"
+
+#: billboard/includes/languages/trans_dash.php:68
+#: dash/addons/includes/languages/trans_dash.php:205
+msgid "Enter a valid facebook from 3 to 40 character"
+msgstr "شناسه فیس‌بوک معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:69
+#: dash/addons/includes/languages/trans_dash.php:206
+msgid "Twitter"
+msgstr "تویتر"
+
+#: billboard/includes/languages/trans_dash.php:70
+#: dash/addons/includes/languages/trans_dash.php:207
+msgid "Enter a valid twitter from 3 to 40 character"
+msgstr "شناسه تویتر معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:72
+#: dash/addons/includes/languages/trans_dash.php:209
+msgid "Enter a valid linkedin from 3 to 40 character"
+msgstr "شناسه لینکدین معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:73
+#: dash/addons/includes/languages/trans_dash.php:210
+msgid "Gmail"
+msgstr "جیمیل"
+
+#: billboard/includes/languages/trans_dash.php:74
+#: dash/addons/includes/languages/trans_dash.php:211
+msgid "Like"
+msgstr "لایک"
+
+#: billboard/includes/languages/trans_dash.php:75
+#: dash/addons/includes/languages/trans_dash.php:212
+msgid "Firstname"
+msgstr "نام"
+
+#: billboard/includes/languages/trans_dash.php:76
+#: dash/addons/includes/languages/trans_dash.php:213
+msgid "Enter a valid firstname from 3 to 40 character"
+msgstr "نام معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:77
+#: dash/addons/includes/languages/trans_dash.php:214
+msgid "Lastname"
+msgstr "نام خانوادگی"
+
+#: billboard/includes/languages/trans_dash.php:78
+#: dash/addons/includes/languages/trans_dash.php:215
+msgid "Enter a valid lastname from 3 to 40 character"
+msgstr "نام خانوادگی معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:80
+#: dash/addons/includes/languages/trans_dash.php:217
+msgid "Enter a valid username from 3 to 40 character"
+msgstr "نام کاربری معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:81
+#: dash/addons/includes/languages/trans_dash.php:218
+msgid "Nick name"
+msgstr "لقب"
+
+#: billboard/includes/languages/trans_dash.php:82
+#: dash/addons/includes/languages/trans_dash.php:219
+msgid "Enter a valid title from 3 to 40 character"
+msgstr "لطفا عنوانی صحیح بین ۳ تا ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:84
+#: dash/addons/includes/languages/trans_dash.php:221
+msgid "Enter a valid type from 3 to 40 character"
+msgstr "نوع معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:87
+#: dash/addons/includes/languages/trans_dash.php:223
+msgid "Bio"
+msgstr "زندگی‌نامه"
+
+#: billboard/includes/languages/trans_dash.php:89
+#: dash/addons/includes/languages/trans_dash.php:225
+msgid "Enter a valid displayname from 3 to 40 character"
+msgstr "نام نمایشی معتبری بین ۳ و ۴۰ حرف وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:91
+#: dash/addons/includes/languages/trans_dash.php:226
+msgid "Like 09120123456"
+msgstr "مثل 0912 012 3456"
+
+#: billboard/includes/languages/trans_dash.php:97
+#: dash/addons/includes/languages/trans_dash.php:131
+#: dash/addons/includes/languages/trans_static.php:934
+msgid "Awaiting"
+msgstr "در حال انتظار"
+
+#: billboard/includes/languages/trans_dash.php:99
+#: dash/addons/includes/languages/trans_dash.php:232
+msgid "Removed"
+msgstr "حذف شده"
+
+#: billboard/includes/languages/trans_dash.php:100
+#: dash/addons/includes/languages/trans_dash.php:233
+msgid "Filter"
+msgstr "مسدود شده"
+
+#: billboard/includes/languages/trans_dash.php:101
+#: dash/addons/includes/languages/trans_dash.php:234
+msgid "Unreachable"
+msgstr "غیر قابل دسترسی"
+
+#: billboard/includes/languages/trans_dash.php:103
+#: dash/addons/includes/languages/trans_dash.php:237
+msgid "No permission"
+msgstr "بدون سطح دسترسی"
+
+#: billboard/includes/languages/trans_dash.php:105
+#: dash/addons/includes/languages/trans_dash.php:411
+msgid "To change your password"
+msgstr "برای تغییر کلمه عبور خود"
+
+#: billboard/includes/languages/trans_dash.php:106
+#: dash/addons/includes/languages/trans_dash.php:412
+msgid "Click here"
+msgstr "اینجا کلیک کنید"
+
+#: billboard/includes/languages/trans_dash.php:107
+#: dash/addons/includes/languages/trans_dash.php:413
+msgid "Delete your account"
+msgstr "حذف حساب کاربری خود"
+
+#: billboard/includes/languages/trans_dash.php:108
+#: dash/addons/includes/languages/trans_dash.php:242
+msgid "Confirm password"
+msgstr "تایید رمز عبور"
+
+#: billboard/includes/languages/trans_dash.php:109
+#: dash/addons/includes/languages/trans_dash.php:243
+msgid "Require to change current password"
+msgstr "برای تغییر کلمه عبور فعلی الزامی است"
+
+#: billboard/includes/languages/trans_dash.php:110
+#: dash/addons/includes/languages/trans_dash.php:240
+msgid "Password was set, enter to change it!"
+msgstr "کلمه عبور تنظیم شده است، برای تغییر آن کلمه عبور را وارد کنید!"
+
+#: billboard/includes/languages/trans_dash.php:111
+#: dash/addons/includes/languages/trans_dash.php:414
+msgid "Password not set, enter to set it!"
+msgstr "گذرواژه تنظیم نشده است، برای تنظیم آن وارد شوید!"
+
+#: billboard/includes/languages/trans_dash.php:114
+#: dash/addons/includes/languages/trans_dash.php:244
+msgid "Save all"
+msgstr "ذخیره همه"
+
+#: billboard/includes/languages/trans_dash.php:165
+#: dash/addons/includes/languages/trans_dash.php:406
+msgid "Toggle side bar"
+msgstr "تغییر وضعیت نوار کناری"
+
+#: billboard/includes/languages/trans_dash.php:166
+#: dash/addons/includes/languages/trans_dash.php:407
+msgid "You can save side bar status"
+msgstr "شما می‌توانید وضعیت نوار کناری را تغییر دهید"
+
+#: billboard/includes/languages/trans_dash.php:167
+#: dash/addons/includes/languages/trans_dash.php:408
+msgid "Are your need side bar?"
+msgstr "شما نیاز به نمایش نوار کناری دارید؟"
+
+#: billboard/includes/languages/trans_dash.php:170
+#: dash/addons/includes/languages/trans_dash.php:277
+msgid "Backup Project"
+msgstr "پشتیبان‌گیری از پروژه"
+
+#: billboard/includes/languages/trans_dash.php:172
+#: dash/addons/includes/languages/trans_dash.php:279
+msgid "Please wait This operation may take a few minutes"
+msgstr "لطفا صبر کنید. این عملیات ممکن است چند دقیقه طول بکشد"
+
+#: billboard/includes/languages/trans_dash.php:188
+#: dash/addons/includes/languages/trans_dash.php:126
+msgid "Submitted on"
+msgstr "ارسال شده در"
+
+#: billboard/includes/languages/trans_dash.php:189
+#: dash/addons/includes/languages/trans_dash.php:127
+msgid "Updated on"
+msgstr "بروزرسانی در"
+
+#: billboard/includes/languages/trans_dash.php:190
+#: dash/addons/includes/languages/trans_dash.php:128
+msgid "Current status"
+msgstr "وضعیت فعلی"
+
+#: billboard/includes/languages/trans_dash.php:192
+#: dash/addons/includes/languages/trans_dash.php:132
+msgid "Unapprove"
+msgstr "تایید نشده"
+
+#: billboard/includes/languages/trans_dash.php:193
+#: dash/addons/includes/languages/trans_dash.php:133
+msgid "Trash"
+msgstr "زباله‌دان"
+
+#: billboard/includes/languages/trans_dash.php:201
+#: dash/addons/includes/languages/trans_dash.php:142
+msgid "Without name"
+msgstr "بدون نام"
+
+#: billboard/includes/languages/trans_dash.php:202
+#: dash/addons/includes/languages/trans_dash.php:143
+msgid "Visitor detail"
+msgstr "جزئیات بازدیدکننده"
+
+#: billboard/includes/languages/trans_dash.php:204
+#: dash/addons/includes/languages/trans_dash.php:144
+msgid "Created on"
+msgstr "ساخته شده در"
+
+#: billboard/includes/languages/trans_dash.php:208
+#: dash/addons/includes/languages/trans_dash.php:148
+msgid "No record exist!"
+msgstr "هیچ داده ای وجود ندارد!"
+
+#: billboard/includes/languages/trans_dash.php:211
+#: dash/addons/includes/languages/trans_dash.php:117
+msgid "Your sms panel balance"
+msgstr "بالانس مالی پنل پیامک شما"
+
+#: billboard/includes/languages/trans_dash.php:213
+#: dash/addons/includes/languages/trans_dash.php:119
+msgid "Send quick"
+msgstr "ارسال سریع"
+
+#: billboard/includes/languages/trans_dash.php:214
+#: dash/addons/includes/languages/trans_dash.php:120
+msgid "Group send"
+msgstr "ارسال گروهی"
+
+#: billboard/includes/languages/trans_dash.php:215
+#: dash/addons/includes/languages/trans_dash.php:89
+msgid "Template"
+msgstr "قالب"
+
+#: billboard/includes/languages/trans_dash.php:229
+#: billboard/includes/languages/trans_twig.php:11
+#: dash/addons/content_cp/contact/home/view.php:11
+msgid "Contact"
+msgstr "تماس"
+
+#: billboard/includes/languages/trans_dash.php:230
+#, fuzzy
+#| msgid "Contact"
+msgid "Contact US"
+msgstr "تماس"
+
+#: billboard/includes/languages/trans_dash.php:234
+#: dash/addons/includes/languages/trans_dash.php:347
+#: dash/addons/includes/languages/trans_static.php:938
+#: dash/addons/includes/languages/trans_static.php:980
+msgid "SMS"
+msgstr "پیام کوتاه"
+
+#: billboard/includes/languages/trans_dash.php:235
+#: dash/addons/includes/languages/trans_dash.php:348
+msgid "Quick send"
+msgstr "ارسال سریع"
+
+#: billboard/includes/languages/trans_dash.php:236
+#: dash/addons/includes/languages/trans_dash.php:349
+msgid "Templates"
+msgstr "الگوها"
+
+#: billboard/includes/languages/trans_dash.php:243
+msgid "Admin Contact"
+msgstr "ارتباط با مدیریت"
+
+#: billboard/includes/languages/trans_dash.php:247
+#: dash/addons/includes/languages/trans_dash.php:157
+msgid ""
+"The permission name should be unique and contain only alphanameric characters and "
+"underscores"
+msgstr ""
+"نام سطح دسترسی باید منحصر به فرد باشد و فقط شامل کاراکتر‌های الفبا و زیر خط باشد"
+
+#: billboard/includes/languages/trans_dash.php:248
+#: dash/addons/includes/languages/trans_dash.php:158
+msgid "Name of your permission"
+msgstr "نام سطح دسترسی شما"
+
+#: billboard/includes/languages/trans_dash.php:249
+#: dash/addons/includes/languages/trans_dash.php:160
+msgid "The permission label is used to represent your permission in user management"
+msgstr "برچسب سطح دسترسی برای نشان دادن آن در بخش مدیریت استفاده می‌شود"
+
+#: billboard/includes/languages/trans_dash.php:250
+#: dash/addons/includes/languages/trans_dash.php:161
+msgid "Label of your permission"
+msgstr "برچسب سطح دسترسی شما"
+
+#: billboard/includes/languages/trans_dash.php:253
+#: dash/addons/includes/languages/trans_dash.php:165
+msgid "Label"
+msgstr "برچسب"
+
+#: billboard/includes/languages/trans_dash.php:256
+#: dash/addons/includes/languages/trans_dash.php:168
+msgid "Permission title"
+msgstr "عنوان سطح‌دسترسی"
+
+#: billboard/includes/languages/trans_dash.php:257
+#: dash/addons/includes/languages/trans_dash.php:169
+msgid "Customized"
+msgstr "سفارشی سازی شده"
+
+#: billboard/includes/languages/trans_dash.php:258
+#: dash/addons/includes/languages/trans_dash.php:170
+msgid "Need double check permission for some sensitive permissions"
+msgstr "نیازمند بررسی دوگانه برای برخی از سطوح دسترسی حساس"
+
+#: billboard/includes/languages/trans_dash.php:259
+#: dash/addons/includes/languages/trans_dash.php:171
+msgid "Do hard check and need to enter again"
+msgstr "بررسی سخت و نیاز به ورود مجدد به سیستم"
+
+#: billboard/includes/languages/trans_dash.php:260
+#: dash/addons/includes/languages/trans_dash.php:172
+msgid "Count of user in permission"
+msgstr "تعداد کاربران با این سطح دسترسی"
+
+#: billboard/includes/languages/trans_dash.php:261
+#: dash/addons/includes/languages/trans_dash.php:173
+msgid "Remove this permission if not need"
+msgstr "اگر به این سطح دسترسی نیازی نداری آن را حذف کنید"
+
+#: billboard/includes/languages/trans_dash.php:262
+#: dash/addons/includes/languages/trans_dash.php:174
+msgid "No user"
+msgstr "بدون کاربر"
+
+#: billboard/includes/languages/trans_dash.php:263
+#: dash/addons/includes/languages/trans_dash.php:175
+msgid "Click to show list of user by this permission"
+msgstr "برای نمایش لیست افراد با این سطح دسترسی کلیک کنید"
+
+#: billboard/includes/languages/trans_dash.php:267
+#: dash/addons/includes/languages/trans_dash.php:289
+msgid "First save as draft and do all checks, then publish."
+msgstr ""
+"ابتدا به صورت پیش نویس ذخیره کنید و پس از بررسی تمامی موارد آن را منتظر کنید."
+
+#: billboard/includes/languages/trans_dash.php:268
+#: dash/addons/includes/languages/trans_dash.php:290
+msgid "Save as draft"
+msgstr "ذخیره پیش نویس"
+
+#: billboard/includes/languages/trans_dash.php:271
+#: dash/addons/content_cp/terms/view.php:22
+#: dash/addons/includes/languages/trans_dash.php:293
+#: dash/addons/includes/languages/trans_static.php:972
+msgid "Categories"
+msgstr "دسته‌بندی‌ها"
+
+#: billboard/includes/languages/trans_dash.php:276
+#: dash/addons/includes/languages/trans_dash.php:296
+msgid "All publish posts"
+msgstr "تمامی خبرهای منتشر شده"
+
+#: billboard/includes/languages/trans_dash.php:277
+#: dash/addons/includes/languages/trans_dash.php:297
+msgid "Published"
+msgstr "منتشر شده"
+
+#: billboard/includes/languages/trans_dash.php:278
+#: dash/addons/includes/languages/trans_dash.php:298
+msgid "All draft posts"
+msgstr "تمامی خبر‌های پیش‌نویس"
+
+#: billboard/includes/languages/trans_dash.php:280
+#: dash/addons/includes/languages/trans_dash.php:300
+msgid "All trash posts"
+msgstr "تمامی خبرهای حذف شده"
+
+#: billboard/includes/languages/trans_dash.php:285
+#: dash/addons/includes/languages/trans_dash.php:305
+msgid ""
+"Recommended being more than 40 character and appear at the beginning of page "
+"content"
+msgstr ""
+"توصیه می‌شود حداقل بیش از ۴۰ کاراکتر بوده و شامل بخشی از مطالب موجود در خطوط "
+"ابتدایی نوشته باشد"
+
+#: billboard/includes/languages/trans_dash.php:287
+#: dash/addons/includes/languages/trans_dash.php:307
+msgid "Subtitle show under title and used on press websites"
+msgstr ""
+"زیرعنوان یا سوتیتر معمولا در زیر عنوان اصلی نمایش داده شده و برای سایت‌های خبری "
+"کاربرد دارد"
+
+#: billboard/includes/languages/trans_dash.php:290
+#: dash/addons/includes/languages/trans_dash.php:310
+msgid "Url of this post."
+msgstr "آدرس این نوشته."
+
+#: billboard/includes/languages/trans_dash.php:291
+#: dash/addons/includes/languages/trans_dash.php:311
+msgid "You can change by set slug and category or parent for this post"
+msgstr ""
+"شما می‌توانید با تنظیم نامک بخش آخر آدرس و با تغییر دسته‌بندی در اخبار یا والد در "
+"صفحات آن را برای این صفحه سفارشی کنید"
+
+#: billboard/includes/languages/trans_dash.php:294
+#: dash/addons/includes/languages/trans_dash.php:314
+msgid "Allow change default publish date"
+msgstr "اجازه تغییر تاریخ انتشار پیش‌فرض"
+
+#: billboard/includes/languages/trans_dash.php:295
+#: dash/addons/includes/languages/trans_dash.php:315
+msgid "Default is now"
+msgstr "به صورت پیشفرض تاریخ امروز"
+
+#: billboard/includes/languages/trans_dash.php:296
+#: dash/addons/includes/languages/trans_dash.php:316
+msgid "Publish time"
+msgstr "زمان انتشار"
+
+#: billboard/includes/languages/trans_dash.php:297
+#: dash/addons/includes/languages/trans_dash.php:317
+msgid "Add to gallery"
+msgstr "افزودن به گالری تصاویر"
+
+#: billboard/includes/languages/trans_dash.php:300
+#: dash/addons/includes/languages/trans_dash.php:320
+msgid "You can publish in another language"
+msgstr "شما می‌توانید در زبان دیگری آن را منتشر کنید"
+
+#: billboard/includes/languages/trans_dash.php:303
+msgid "Choose parent for this page to create related url as tree"
+msgstr "با انتخاب والد برای این صفحه، آدرس‌های نسبی مانند ساختار درختی ایجاد کنید"
+
+#: billboard/includes/languages/trans_dash.php:304
+msgid "Choose Parent"
+msgstr "والد را انتخاب کنید"
+
+#: billboard/includes/languages/trans_dash.php:305
+#, fuzzy
+#| msgid "Without name"
+msgid "Without Parent"
+msgstr "بدون نام"
+
+#: billboard/includes/languages/trans_dash.php:306
+msgid ""
+"Choose category for posts is fix url of post relative and help people find it "
+"better."
+msgstr ""
+"انتخاب دسته‌بندی برای نوشته منجر به تصحیح آدرس نوشته و ساختارمند کردن آن برای یافتن "
+"بهتر می‌گردد."
+
+#: billboard/includes/languages/trans_dash.php:308
+#: dash/addons/includes/languages/trans_dash.php:324
+msgid "Click on special tags to use this depending on your website design"
+msgstr "بسته به طراحی وب‌سایت با کلیک روی کلیدواژه خاص از ویژگی‌های آن استفاده کنید"
+
+#: billboard/includes/languages/trans_dash.php:313
+#: dash/addons/includes/languages/trans_dash.php:329
+msgid "Featured Image"
+msgstr "تصویر شاخص"
+
+#: billboard/includes/languages/trans_dash.php:315
+#: dash/addons/includes/languages/trans_dash.php:331
+msgid "Gallery"
+msgstr "گالری"
+
+#: billboard/includes/languages/trans_dash.php:316
+#: dash/addons/includes/languages/trans_dash.php:332
+msgid "Click to download"
+msgstr "برای دانلود کلیک کنید"
+
+#: billboard/includes/languages/trans_dash.php:317
+#: dash/addons/includes/languages/trans_dash.php:333
+msgid "Video"
+msgstr ""
+
+#: billboard/includes/languages/trans_dash.php:318
+#: dash/addons/includes/languages/trans_dash.php:334
+msgid "MP3"
+msgstr "ام‌پی‌تری"
+
+#: billboard/includes/languages/trans_dash.php:319
+#: dash/addons/includes/languages/trans_dash.php:335
+msgid "PDF"
+msgstr ""
+
+#: billboard/includes/languages/trans_dash.php:320
+#: dash/addons/includes/languages/trans_dash.php:336
+msgid "Without preview"
+msgstr "بدون پیش‌نمایش"
+
+#: billboard/includes/languages/trans_dash.php:323
+#: dash/addons/includes/languages/trans_dash.php:110
+msgid "Users mobile"
+msgstr "تلفن همراه کاربر"
+
+#: billboard/includes/languages/trans_dash.php:324
+#: dash/addons/includes/languages/trans_dash.php:111
+msgid "Every mobile in one line"
+msgstr "هر شماره همراه در یک خط"
+
+#: billboard/includes/languages/trans_dash.php:325
+#: dash/addons/includes/languages/trans_dash.php:112
+msgid "What do you want to send to this users?"
+msgstr "چه پیامی را میخواهید به این کاربران ارسال کنید؟"
+
+#: billboard/includes/languages/trans_dash.php:326
+#: dash/addons/includes/languages/trans_dash.php:90
+msgid "No template"
+msgstr "بدون الگو"
+
+#: billboard/includes/languages/trans_dash.php:327
+#: dash/addons/includes/languages/trans_dash.php:91
+msgid "Show"
+msgstr "نمایش"
+
+#: billboard/includes/languages/trans_dash.php:328
+#: dash/addons/includes/languages/trans_dash.php:113
+msgid "Group"
+msgstr ""
+
+#: billboard/includes/languages/trans_dash.php:329
+#: dash/addons/includes/languages/trans_dash.php:114
+msgid "No group"
+msgstr "بدون گروه"
+
+#: billboard/includes/languages/trans_dash.php:336
+#: dash/addons/includes/languages/trans_dash.php:98
+msgid "List of template sms"
+msgstr "لیست الگوهای پیامک"
+
+#: billboard/includes/languages/trans_dash.php:337
+#: dash/addons/includes/languages/trans_dash.php:100
+msgid "Template text"
+msgstr "متن الگو"
+
+#: billboard/includes/languages/trans_dash.php:339
+#: dash/addons/includes/languages/trans_dash.php:105
+msgid "Template name"
+msgstr "نام الگو"
+
+#: billboard/includes/languages/trans_dash.php:340
+#: dash/addons/includes/languages/trans_dash.php:106
+msgid "Template Name"
+msgstr "نام الگو"
+
+#: billboard/includes/languages/trans_dash.php:341
+#: dash/addons/includes/languages/trans_dash.php:107
+msgid "Template Text"
+msgstr "متن الگو"
+
+#: billboard/includes/languages/trans_dash.php:347
+#: dash/addons/includes/languages/trans_dash.php:264
+msgid "Used"
+msgstr "استفاده شده"
+
+#: billboard/includes/languages/trans_dash.php:348
+#: dash/addons/includes/languages/trans_dash.php:265
+msgid "Title is used to show on website"
+msgstr "عنوان جهت نمایش در وبسایت"
+
+#: billboard/includes/languages/trans_dash.php:350
+#: dash/addons/includes/languages/trans_dash.php:267
+msgid "Used in url for categorize addresses"
+msgstr "برای طبقه بندی آدرس‌ها استفاده می‌شود"
+
+#: billboard/includes/languages/trans_dash.php:357
+#: dash/addons/includes/languages/trans_dash.php:247
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#: billboard/includes/languages/trans_dash.php:359
+#: dash/addons/includes/languages/trans_dash.php:248
+msgid "Created date"
+msgstr "تاریخ ایجاد"
+
+#: billboard/includes/languages/trans_dash.php:360
+#: dash/addons/includes/languages/trans_dash.php:249
+msgid "Last Modified"
+msgstr "آخرین به‌روز رسانی"
+
+#: billboard/includes/languages/trans_dash.php:361
+#: dash/addons/includes/languages/trans_dash.php:250
+msgid "Mr"
+msgstr "آقای"
+
+#: billboard/includes/languages/trans_dash.php:362
+#: dash/addons/includes/languages/trans_dash.php:251
+msgid "Mrs"
+msgstr "خانم"
+
+#: billboard/includes/languages/trans_dash.php:363
+#: dash/addons/includes/languages/trans_dash.php:252
+msgid "Password is set"
+msgstr "کلمه عبور تنظیم شده است"
+
+#: billboard/includes/languages/trans_dash.php:364
+#: dash/addons/includes/languages/trans_dash.php:253
+msgid "Password is not set!"
+msgstr "کلمه عبور تنظیم نشده است!"
+
+#: billboard/includes/languages/trans_dash.php:365
+#: dash/addons/includes/languages/trans_dash.php:254
+msgid "Two step verification in enabled"
+msgstr "ورود دو مرحله ای فعال است"
+
+#: billboard/includes/languages/trans_dash.php:366
+#: dash/addons/includes/languages/trans_dash.php:255
+msgid "Two step verification in disable"
+msgstr "ورود دو مرحله ای غیر فعال است"
+
+#: billboard/includes/languages/trans_dash.php:367
+#: dash/addons/includes/languages/trans_dash.php:257
+msgid "Try to start with add new user!"
+msgstr "با افزودن کاربر جدید تلاشی برای شروع داشته باشید!"
+
+#: billboard/includes/languages/trans_dash.php:368
+#: dash/addons/includes/languages/trans_dash.php:258
+msgid "All :Members"
+msgstr "تمامی :Experts"
+
+#: billboard/includes/languages/trans_dash.php:369
+#: dash/addons/includes/languages/trans_dash.php:259
+msgid ":Experts"
+msgstr ":Experts"
+
+#: billboard/includes/languages/trans_dash.php:370
+#: dash/addons/includes/languages/trans_dash.php:260
+msgid ":Teachers"
+msgstr ":Teachers"
+
+#: billboard/includes/languages/trans_dash.php:371
+#: dash/addons/includes/languages/trans_dash.php:261
+msgid "Students"
+msgstr "دانش آموزان"
+
+#: billboard/includes/languages/trans_dash.php:374
+#: dash/addons/includes/languages/trans_dash.php:235
+msgid "This user is supervisor!"
+msgstr "این کاربر مدیر فنی سیستم است!"
+
+#: billboard/includes/languages/trans_dash.php:375
+#: dash/addons/includes/languages/trans_dash.php:239
+msgid "Enter to change pass"
+msgstr "برای تغییر کلمه عبور آن را وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:376
+#: dash/addons/includes/languages/trans_dash.php:241
+msgid "Password not set, enter  to set it!"
+msgstr "کلمه عبور تنظیم نشده است، آن را تنظیم کنید!"
+
+#: billboard/includes/languages/trans_dash.php:379
+#: dash/addons/includes/languages/trans_dash.php:188
+msgid "Field"
+msgstr "فیلد"
+
+#: billboard/includes/languages/trans_dash.php:467
+#: dash/addons/includes/languages/trans_dash.php:610
+msgid "You have another database for logs"
+msgstr "شما یک دیتابیس دیگر هم برای لاگ‌ها دارید"
+
+#: billboard/includes/languages/trans_dash.php:468
+#: dash/addons/includes/languages/trans_dash.php:611
+msgid "Click for create backup from log database"
+msgstr "برای پشتیبان‌گیری از دیتابیس لاگ‌ها کلیک کنید"
+
+#: billboard/includes/languages/trans_dash.php:491
+#, fuzzy
+#| msgid "Recovery password"
+msgid "Server password"
+msgstr "بازیابی گذرواژه"
+
+#: billboard/includes/languages/trans_dash.php:494
+#: dash/addons/includes/languages/trans_dash.php:562
+msgid "Run cronjob for this service"
+msgstr "اجرای کرون جاب برای این سرویس"
+
+#: billboard/includes/languages/trans_dash.php:501
+msgid "CPU Usage"
+msgstr "مصرف پردازنده"
+
+#: billboard/includes/languages/trans_dash.php:502
+msgid "Memory"
+msgstr "حافظه"
+
+#: billboard/includes/languages/trans_dash.php:503
+msgid "Disk usage"
+msgstr "مصرف دیسک"
+
+#: billboard/includes/languages/trans_dash.php:504
+msgid "percentage"
+msgstr "درصد"
+
+#: billboard/includes/languages/trans_dash.php:508
+#: dash/addons/includes/languages/trans_dash.php:636
+msgid "Cronjob"
+msgstr "کرون جاب"
+
+#: billboard/includes/languages/trans_dash.php:514
+#: dash/addons/includes/languages/trans_dash.php:639
+msgid "Short URL"
+msgstr "لینک کوتاه"
+
+#: billboard/includes/languages/trans_dash.php:547
+#: dash/addons/content_su/info/controller.php:29
+msgid "First you need to enable COM on windows"
+msgstr "در ابتدا شما باید ویژگی Com را در ویندوز فعال کنید"
+
+#: billboard/includes/languages/trans_dash.php:548
+#: dash/addons/content_su/info/controller.php:30
+msgid "Read More"
+msgstr "بیشتر بخوانید"
+
+#: billboard/includes/languages/trans_dash.php:609
+#: dash/addons/includes/languages/trans_dash.php:460
+msgid "Test coding function"
+msgstr "بررسی تابع کدینگ"
+
+#: billboard/includes/languages/trans_dash.php:621
+#: dash/addons/content_su/command/view.php:8
+#, fuzzy
+#| msgid "Comment"
+msgid "Command"
+msgstr "دیدگاه"
+
+#: billboard/includes/languages/trans_dash.php:622
+msgid "Date and time"
+msgstr ""
+
+#: billboard/includes/languages/trans_dash.php:623
+#: dash/addons/content_su/nano/view.php:8
+msgid "Nano"
+msgstr ""
+
+#: billboard/includes/languages/trans_dash.php:624
+#, fuzzy
+#| msgid "Status"
+msgid "Git status"
+msgstr "وضعیت"
+
+#: billboard/includes/languages/trans_dash.php:641
+#: dash/addons/includes/languages/trans_dash.php:669
+msgid "Extract All trans func"
+msgstr "استخراج توابع ترجمه در دش و پروژه جاری"
+
+#: billboard/includes/languages/trans_dash.php:666
+#: dash/addons/includes/languages/trans_dash.php:543
+msgid "Submit this form carefully"
+msgstr "این را با احتیاط بفشارید"
+
+#: billboard/includes/languages/trans_dash.php:668
+msgid "If the git password is saved on your server"
+msgstr ""
+
+#: billboard/includes/languages/trans_dash.php:669
+#: dash/addons/includes/languages/trans_dash.php:545
+msgid "Press it if you are sure!"
+msgstr "اگر مطمئن هستید، بفشارید!"
+
+#: billboard/includes/languages/trans_dash.php:670
+#: dash/addons/includes/languages/trans_dash.php:546
+msgid "Update All"
+msgstr "بروزرسانی همه"
+
+#: billboard/includes/languages/trans_dash.php:671
+#, fuzzy
+#| msgid "password"
+msgid "Git password"
+msgstr "گذرواژه"
+
+#: billboard/includes/languages/trans_dash.php:672
+#, fuzzy
+#| msgid "Enter to change pass"
+msgid "Enter git pass"
+msgstr "برای تغییر کلمه عبور آن را وارد کنید"
+
+#: billboard/includes/languages/trans_dash.php:673
+#: dash/addons/includes/languages/trans_dash.php:547
+msgid "Last update"
+msgstr ""
+
+#: billboard/includes/languages/trans_dash.php:674
+#: dash/addons/includes/languages/trans_dash.php:548
+msgid "Current Version"
+msgstr "نسخه فعلی"
+
+#: billboard/includes/languages/trans_dash.php:675
+#: dash/addons/includes/languages/trans_dash.php:549
+msgid "Commits"
+msgstr "کامیت‌ها"
+
+#: billboard/includes/languages/trans_dash.php:676
+#: dash/addons/includes/languages/trans_dash.php:550
+msgid "Do it if you know it"
+msgstr "اگر می‌دانید انجامش دهید"
+
+#: billboard/includes/languages/trans_dash.php:677
+#: dash/addons/includes/languages/trans_dash.php:551
+msgid "Update Dash Repository"
+msgstr "بروزرسانی مخزن دش"
+
+#: billboard/includes/languages/trans_dash.php:678
+#: dash/addons/includes/languages/trans_dash.php:552
+msgid "Dash Engine Location"
+msgstr "محل قرارگیری موتور دش"
+
+#: billboard/includes/languages/trans_dash.php:679
+#: dash/addons/includes/languages/trans_dash.php:553
+msgid "Update Repository"
+msgstr "بروزرسانی مخزن"
+
+#: billboard/includes/languages/trans_dash.php:680
+#: dash/addons/includes/languages/trans_dash.php:554
+msgid "Project database"
+msgstr "دیتابیس پروژه"
+
+#: billboard/includes/languages/trans_dash.php:681
+#: dash/addons/includes/languages/trans_dash.php:555
+msgid "Addon Database"
+msgstr "دیتابیس افزونه"
+
+#: billboard/includes/languages/trans_dash.php:724
+#: dash/addons/includes/languages/trans_dash.php:696
+msgid "Click to toggle sidebar status"
+msgstr "برای تغییر وضعیت منوی کناری کلیک کنید"
+
+#: billboard/includes/languages/trans_dash.php:751
+#: dash/addons/includes/languages/trans_dash.php:729
+msgid "Delete Account"
+msgstr "حذف حساب کاربری"
+
+#: billboard/includes/languages/trans_dash.php:754
+#: dash/addons/includes/languages/trans_dash.php:732
+msgid "Sign in instead"
+msgstr "یا وارد شوید"
+
+#: billboard/includes/languages/trans_dash.php:756
+#: dash/addons/includes/languages/trans_dash.php:734
+msgid "No account?"
+msgstr "حساب کاربری ندارید؟"
+
+#: billboard/includes/languages/trans_dash.php:757
+#: dash/addons/includes/languages/trans_dash.php:735
+msgid "Create for yourself"
+msgstr "حساب‌کاربری خود را بسازید"
+
+#: billboard/includes/languages/trans_dash.php:778
+#: dash/addons/includes/languages/trans_dash.php:703
+msgid "You are supervisor!"
+msgstr "شما مدیر فنی سیستم هستید!"
+
+#: billboard/includes/languages/trans_dash.php:779
+#: dash/addons/includes/languages/trans_dash.php:704
+msgid "Enter with another user"
+msgstr "ورود با کاربر دیگر"
+
+#: billboard/includes/languages/trans_project.php:9
+msgid "Integrated Sales and Online Accounting"
+msgstr "فروش یکپارچه و حسابداری آنلاین"
+
+#: billboard/includes/languages/trans_project.php:10
+msgid "Jibres is not just an online accounting software;"
+msgstr "جیبرس تنها یک نرم افزار حسابداری آنلاین نیست؛"
+
+#: billboard/includes/languages/trans_project.php:11
+msgid ""
+"We try to create the best financial platform that has everything you need to sale "
+"and manage your financial life."
+msgstr ""
+"ما در حال توسعه برای ساخت بهترین پلتفرم مالی هستیم تا تمام نیازهای فروش و مدیریت "
+"مالی زندگی شما را پوشش دهیم."
+
+#: billboard/includes/languages/trans_project.php:13
+msgid "Pioneer Academies Selection"
+msgstr "انتخاب مراکز آموزشی پیشگام"
+
+#: billboard/includes/languages/trans_project.php:14
+msgid "Azvir provides complete and beautiful solutions for your academy;"
+msgstr "ازویر، راه‌حلی کامل و زیبا را برای مراکز آموزشی ارائه می‌دهد؛"
+
+#: billboard/includes/languages/trans_project.php:15
+msgid "Do all things easily and enjoy."
+msgstr "همه‌‌ی کارها را به‌سادگی انجام دهید و لذت ببرید."
+
+#: billboard/includes/languages/trans_project.php:17
+msgid "Ask Anyone Anywhere"
+msgstr "از هرکسی در هرجایی بپرسید"
+
+#: billboard/includes/languages/trans_project.php:18
+msgid "Focus on your question. Do not be too concerned about how to ask or analyze."
+msgstr "روی سوال خود تمرکز کنید؛ دغدغه چطور پرسیدن و تحلیل کردن نداشته باشید."
+
+#: billboard/includes/languages/trans_project.php:19
+msgid ""
+"Equipped with an integrated platform, Sarshomar has made it possible for you to "
+"ask your questions via any means."
+msgstr ""
+"سرشمار با زیرساختی یکپارچه، امکان پرسیدن با هر ابزاری را برای شما فراهم کرده است."
+
+#: billboard/includes/languages/trans_project.php:21
+msgid "Modern Approach"
+msgstr "رویکرد مدرن"
+
+#: billboard/includes/languages/trans_project.php:22
+msgid "Tejarak provides beautiful solutions for your business;"
+msgstr "تجارک، ارائه دهنده‌ی راه‌کارهای زیبا برای کسب و کار شما؛"
+
+#: billboard/includes/languages/trans_project.php:23
+msgid "Do attendance easily and enjoy realtime reports."
+msgstr "به‌سادگی حضور و غیاب کنید و از گزارش‌های آنلاین لذت ببرید."
+
 #: billboard/includes/languages/trans_twig.php:9
 msgid "Slogan"
 msgstr "شعار"
@@ -6463,11 +7868,6 @@ msgstr "شعار"
 #: billboard/includes/languages/trans_twig.php:10
 msgid "About"
 msgstr "درباره"
-
-#: billboard/includes/languages/trans_twig.php:11
-#: dash/addons/content_cp/contact/home/view.php:11
-msgid "Contact"
-msgstr "تماس"
 
 #: billboard/includes/languages/trans_twig.php:12
 msgid "Check on Github"
@@ -7059,12 +8459,6 @@ msgstr "عبارت با موفقیت اضافه شد"
 msgid "Check terms and filter by type or view and edit some terms"
 msgstr "چک کردن شرایط و فیلتر بر اساس نوع یا مشاهده و ویرایش برخی از شرایط"
 
-#: dash/addons/content_cp/terms/view.php:22
-#: dash/addons/includes/languages/trans_dash.php:293
-#: dash/addons/includes/languages/trans_static.php:972
-msgid "Categories"
-msgstr "دسته‌بندی‌ها"
-
 #: dash/addons/content_cp/terms/view.php:23
 msgid "Check categories and add or edit some new category"
 msgstr "دسته بندی ها را بررسی کنید و برخی از دسته های جدید را اضافه یا ویرایش کنید"
@@ -7646,12 +9040,6 @@ msgstr "لطفا گذرواژه را وارد کنید"
 msgid "Invalid command"
 msgstr "رویداد‌ نامعتبر‌است"
 
-#: dash/addons/content_su/command/view.php:8
-#, fuzzy
-#| msgid "Comment"
-msgid "Command"
-msgstr "دیدگاه"
-
 #: dash/addons/content_su/command/view.php:9
 msgid "Run some command in server"
 msgstr ""
@@ -7724,14 +9112,6 @@ msgstr "داشبورد مدیر فنی سیستم"
 msgid "Hey there!"
 msgstr "سلام رفیق!"
 
-#: dash/addons/content_su/info/controller.php:29
-msgid "First you need to enable COM on windows"
-msgstr "در ابتدا شما باید ویژگی Com را در ویندوز فعال کنید"
-
-#: dash/addons/content_su/info/controller.php:30
-msgid "Read More"
-msgstr "بیشتر بخوانید"
-
 #: dash/addons/content_su/logitems/edit/model.php:26
 msgid "Update successfull"
 msgstr "به روزرسانی با موفقیت انجام شد"
@@ -7752,10 +9132,6 @@ msgstr "لیست لاگ‌ها"
 #: dash/addons/content_su/logs/view.php:9
 msgid "All event in this system"
 msgstr "تمامی اتفاقات درون این سیستم"
-
-#: dash/addons/content_su/nano/view.php:8
-msgid "Nano"
-msgstr ""
 
 #: dash/addons/content_su/nano/view.php:9
 #, fuzzy
@@ -7882,668 +9258,13 @@ msgstr "سراسری"
 msgid "User added"
 msgstr "کاربر اضافه شد"
 
-#: dash/addons/includes/languages/trans_dash.php:89
-msgid "Template"
-msgstr "قالب"
-
-#: dash/addons/includes/languages/trans_dash.php:90
-msgid "No template"
-msgstr "بدون الگو"
-
-#: dash/addons/includes/languages/trans_dash.php:91
-msgid "Show"
-msgstr "نمایش"
-
-#: dash/addons/includes/languages/trans_dash.php:98
-msgid "List of template sms"
-msgstr "لیست الگوهای پیامک"
-
-#: dash/addons/includes/languages/trans_dash.php:100
-msgid "Template text"
-msgstr "متن الگو"
-
-#: dash/addons/includes/languages/trans_dash.php:105
-msgid "Template name"
-msgstr "نام الگو"
-
-#: dash/addons/includes/languages/trans_dash.php:106
-msgid "Template Name"
-msgstr "نام الگو"
-
-#: dash/addons/includes/languages/trans_dash.php:107
-msgid "Template Text"
-msgstr "متن الگو"
-
-#: dash/addons/includes/languages/trans_dash.php:110
-msgid "Users mobile"
-msgstr "تلفن همراه کاربر"
-
-#: dash/addons/includes/languages/trans_dash.php:111
-msgid "Every mobile in one line"
-msgstr "هر شماره همراه در یک خط"
-
-#: dash/addons/includes/languages/trans_dash.php:112
-msgid "What do you want to send to this users?"
-msgstr "چه پیامی را میخواهید به این کاربران ارسال کنید؟"
-
-#: dash/addons/includes/languages/trans_dash.php:113
-msgid "Group"
-msgstr ""
-
-#: dash/addons/includes/languages/trans_dash.php:114
-msgid "No group"
-msgstr "بدون گروه"
-
-#: dash/addons/includes/languages/trans_dash.php:117
-msgid "Your sms panel balance"
-msgstr "بالانس مالی پنل پیامک شما"
-
-#: dash/addons/includes/languages/trans_dash.php:119
-msgid "Send quick"
-msgstr "ارسال سریع"
-
-#: dash/addons/includes/languages/trans_dash.php:120
-msgid "Group send"
-msgstr "ارسال گروهی"
-
-#: dash/addons/includes/languages/trans_dash.php:125
-msgid "Website"
-msgstr "وب‌سایت"
-
-#: dash/addons/includes/languages/trans_dash.php:126
-msgid "Submitted on"
-msgstr "ارسال شده در"
-
-#: dash/addons/includes/languages/trans_dash.php:127
-msgid "Updated on"
-msgstr "بروزرسانی در"
-
-#: dash/addons/includes/languages/trans_dash.php:128
-msgid "Current status"
-msgstr "وضعیت فعلی"
-
-#: dash/addons/includes/languages/trans_dash.php:131
-#: dash/addons/includes/languages/trans_static.php:934
-msgid "Awaiting"
-msgstr "در حال انتظار"
-
-#: dash/addons/includes/languages/trans_dash.php:132
-msgid "Unapprove"
-msgstr "تایید نشده"
-
-#: dash/addons/includes/languages/trans_dash.php:133
-msgid "Trash"
-msgstr "زباله‌دان"
-
-#: dash/addons/includes/languages/trans_dash.php:142
-msgid "Without name"
-msgstr "بدون نام"
-
-#: dash/addons/includes/languages/trans_dash.php:143
-msgid "Visitor detail"
-msgstr "جزئیات بازدیدکننده"
-
-#: dash/addons/includes/languages/trans_dash.php:144
-msgid "Created on"
-msgstr "ساخته شده در"
-
-#: dash/addons/includes/languages/trans_dash.php:148
-msgid "No record exist!"
-msgstr "هیچ داده ای وجود ندارد!"
-
-#: dash/addons/includes/languages/trans_dash.php:157
-msgid ""
-"The permission name should be unique and contain only alphanameric characters and "
-"underscores"
-msgstr ""
-"نام سطح دسترسی باید منحصر به فرد باشد و فقط شامل کاراکتر‌های الفبا و زیر خط باشد"
-
-#: dash/addons/includes/languages/trans_dash.php:158
-msgid "Name of your permission"
-msgstr "نام سطح دسترسی شما"
-
-#: dash/addons/includes/languages/trans_dash.php:160
-msgid "The permission label is used to represent your permission in user management"
-msgstr "برچسب سطح دسترسی برای نشان دادن آن در بخش مدیریت استفاده می‌شود"
-
-#: dash/addons/includes/languages/trans_dash.php:161
-msgid "Label of your permission"
-msgstr "برچسب سطح دسترسی شما"
-
-#: dash/addons/includes/languages/trans_dash.php:165
-msgid "Label"
-msgstr "برچسب"
-
-#: dash/addons/includes/languages/trans_dash.php:168
-msgid "Permission title"
-msgstr "عنوان سطح‌دسترسی"
-
-#: dash/addons/includes/languages/trans_dash.php:169
-msgid "Customized"
-msgstr "سفارشی سازی شده"
-
-#: dash/addons/includes/languages/trans_dash.php:170
-msgid "Need double check permission for some sensitive permissions"
-msgstr "نیازمند بررسی دوگانه برای برخی از سطوح دسترسی حساس"
-
-#: dash/addons/includes/languages/trans_dash.php:171
-msgid "Do hard check and need to enter again"
-msgstr "بررسی سخت و نیاز به ورود مجدد به سیستم"
-
-#: dash/addons/includes/languages/trans_dash.php:172
-msgid "Count of user in permission"
-msgstr "تعداد کاربران با این سطح دسترسی"
-
-#: dash/addons/includes/languages/trans_dash.php:173
-msgid "Remove this permission if not need"
-msgstr "اگر به این سطح دسترسی نیازی نداری آن را حذف کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:174
-msgid "No user"
-msgstr "بدون کاربر"
-
-#: dash/addons/includes/languages/trans_dash.php:175
-msgid "Click to show list of user by this permission"
-msgstr "برای نمایش لیست افراد با این سطح دسترسی کلیک کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:188
-msgid "Field"
-msgstr "فیلد"
-
-#: dash/addons/includes/languages/trans_dash.php:192
-msgid "Name and Global Details"
-msgstr "نام و جزئیات عمومی"
-
-#: dash/addons/includes/languages/trans_dash.php:193
-msgid "Email and Social Networks"
-msgstr "رایانامه و شبکه‌های اجتماعی"
-
-#: dash/addons/includes/languages/trans_dash.php:194
-msgid "Security and Enter"
-msgstr "امنیت و ورود"
-
-#: dash/addons/includes/languages/trans_dash.php:195
-msgid "Improve User Experience"
-msgstr "بهبود تجربه کاربری"
-
-#: dash/addons/includes/languages/trans_dash.php:196
-msgid "Two step verification"
-msgstr "ورود دو مرحله ای"
-
-#: dash/addons/includes/languages/trans_dash.php:197
-msgid "Show sidebar"
-msgstr "نمایش نوار کناری"
-
-#: dash/addons/includes/languages/trans_dash.php:198
-msgid "Default language"
-msgstr "زبان پیشفرض"
-
-#: dash/addons/includes/languages/trans_dash.php:199
-msgid "Select one item"
-msgstr "یکی از موارد را انتخاب کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:200
-msgid "like"
-msgstr "مثل"
-
-#: dash/addons/includes/languages/trans_dash.php:201
-msgid "Enter a valid website from 3 to 40 character"
-msgstr "وبسایت معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:202
-msgid "Instagram"
-msgstr "اینستاگرام"
-
-#: dash/addons/includes/languages/trans_dash.php:203
-msgid "Enter a valid instagram from 3 to 40 character"
-msgstr "شناسه اینستاگرام معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:204
-msgid "Facebook"
-msgstr "فیس‌بوک"
-
-#: dash/addons/includes/languages/trans_dash.php:205
-msgid "Enter a valid facebook from 3 to 40 character"
-msgstr "شناسه فیس‌بوک معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:206
-msgid "Twitter"
-msgstr "تویتر"
-
-#: dash/addons/includes/languages/trans_dash.php:207
-msgid "Enter a valid twitter from 3 to 40 character"
-msgstr "شناسه تویتر معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:209
-msgid "Enter a valid linkedin from 3 to 40 character"
-msgstr "شناسه لینکدین معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:210
-msgid "Gmail"
-msgstr "جیمیل"
-
-#: dash/addons/includes/languages/trans_dash.php:211
-msgid "Like"
-msgstr "لایک"
-
-#: dash/addons/includes/languages/trans_dash.php:212
-msgid "Firstname"
-msgstr "نام"
-
-#: dash/addons/includes/languages/trans_dash.php:213
-msgid "Enter a valid firstname from 3 to 40 character"
-msgstr "نام معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:214
-msgid "Lastname"
-msgstr "نام خانوادگی"
-
-#: dash/addons/includes/languages/trans_dash.php:215
-msgid "Enter a valid lastname from 3 to 40 character"
-msgstr "نام خانوادگی معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:217
-msgid "Enter a valid username from 3 to 40 character"
-msgstr "نام کاربری معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:218
-msgid "Nick name"
-msgstr "لقب"
-
-#: dash/addons/includes/languages/trans_dash.php:219
-msgid "Enter a valid title from 3 to 40 character"
-msgstr "لطفا عنوانی صحیح بین ۳ تا ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:221
-msgid "Enter a valid type from 3 to 40 character"
-msgstr "نوع معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:223
-msgid "Bio"
-msgstr "زندگی‌نامه"
-
-#: dash/addons/includes/languages/trans_dash.php:225
-msgid "Enter a valid displayname from 3 to 40 character"
-msgstr "نام نمایشی معتبری بین ۳ و ۴۰ حرف وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:226
-msgid "Like 09120123456"
-msgstr "مثل 0912 012 3456"
-
-#: dash/addons/includes/languages/trans_dash.php:232
-msgid "Removed"
-msgstr "حذف شده"
-
-#: dash/addons/includes/languages/trans_dash.php:233
-msgid "Filter"
-msgstr "مسدود شده"
-
-#: dash/addons/includes/languages/trans_dash.php:234
-msgid "Unreachable"
-msgstr "غیر قابل دسترسی"
-
-#: dash/addons/includes/languages/trans_dash.php:235
-msgid "This user is supervisor!"
-msgstr "این کاربر مدیر فنی سیستم است!"
-
-#: dash/addons/includes/languages/trans_dash.php:237
-msgid "No permission"
-msgstr "بدون سطح دسترسی"
-
-#: dash/addons/includes/languages/trans_dash.php:239
-msgid "Enter to change pass"
-msgstr "برای تغییر کلمه عبور آن را وارد کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:240
-msgid "Password was set, enter to change it!"
-msgstr "کلمه عبور تنظیم شده است، برای تغییر آن کلمه عبور را وارد کنید!"
-
-#: dash/addons/includes/languages/trans_dash.php:241
-msgid "Password not set, enter  to set it!"
-msgstr "کلمه عبور تنظیم نشده است، آن را تنظیم کنید!"
-
-#: dash/addons/includes/languages/trans_dash.php:242
-msgid "Confirm password"
-msgstr "تایید رمز عبور"
-
-#: dash/addons/includes/languages/trans_dash.php:243
-msgid "Require to change current password"
-msgstr "برای تغییر کلمه عبور فعلی الزامی است"
-
-#: dash/addons/includes/languages/trans_dash.php:244
-msgid "Save all"
-msgstr "ذخیره همه"
-
-#: dash/addons/includes/languages/trans_dash.php:247
-msgid "Display Name"
-msgstr "نام نمایشی"
-
-#: dash/addons/includes/languages/trans_dash.php:248
-msgid "Created date"
-msgstr "تاریخ ایجاد"
-
-#: dash/addons/includes/languages/trans_dash.php:249
-msgid "Last Modified"
-msgstr "آخرین به‌روز رسانی"
-
-#: dash/addons/includes/languages/trans_dash.php:250
-msgid "Mr"
-msgstr "آقای"
-
-#: dash/addons/includes/languages/trans_dash.php:251
-msgid "Mrs"
-msgstr "خانم"
-
-#: dash/addons/includes/languages/trans_dash.php:252
-msgid "Password is set"
-msgstr "کلمه عبور تنظیم شده است"
-
-#: dash/addons/includes/languages/trans_dash.php:253
-msgid "Password is not set!"
-msgstr "کلمه عبور تنظیم نشده است!"
-
-#: dash/addons/includes/languages/trans_dash.php:254
-msgid "Two step verification in enabled"
-msgstr "ورود دو مرحله ای فعال است"
-
-#: dash/addons/includes/languages/trans_dash.php:255
-msgid "Two step verification in disable"
-msgstr "ورود دو مرحله ای غیر فعال است"
-
-#: dash/addons/includes/languages/trans_dash.php:257
-msgid "Try to start with add new user!"
-msgstr "با افزودن کاربر جدید تلاشی برای شروع داشته باشید!"
-
-#: dash/addons/includes/languages/trans_dash.php:258
-msgid "All :Members"
-msgstr "تمامی :Experts"
-
-#: dash/addons/includes/languages/trans_dash.php:259
-msgid ":Experts"
-msgstr ":Experts"
-
-#: dash/addons/includes/languages/trans_dash.php:260
-msgid ":Teachers"
-msgstr ":Teachers"
-
-#: dash/addons/includes/languages/trans_dash.php:261
-msgid "Students"
-msgstr "دانش آموزان"
-
-#: dash/addons/includes/languages/trans_dash.php:264
-msgid "Used"
-msgstr "استفاده شده"
-
-#: dash/addons/includes/languages/trans_dash.php:265
-msgid "Title is used to show on website"
-msgstr "عنوان جهت نمایش در وبسایت"
-
-#: dash/addons/includes/languages/trans_dash.php:267
-msgid "Used in url for categorize addresses"
-msgstr "برای طبقه بندی آدرس‌ها استفاده می‌شود"
-
-#: dash/addons/includes/languages/trans_dash.php:277
-msgid "Backup Project"
-msgstr "پشتیبان‌گیری از پروژه"
-
-#: dash/addons/includes/languages/trans_dash.php:279
-msgid "Please wait This operation may take a few minutes"
-msgstr "لطفا صبر کنید. این عملیات ممکن است چند دقیقه طول بکشد"
-
-#: dash/addons/includes/languages/trans_dash.php:289
-msgid "First save as draft and do all checks, then publish."
-msgstr ""
-"ابتدا به صورت پیش نویس ذخیره کنید و پس از بررسی تمامی موارد آن را منتظر کنید."
-
-#: dash/addons/includes/languages/trans_dash.php:290
-msgid "Save as draft"
-msgstr "ذخیره پیش نویس"
-
-#: dash/addons/includes/languages/trans_dash.php:296
-msgid "All publish posts"
-msgstr "تمامی خبرهای منتشر شده"
-
-#: dash/addons/includes/languages/trans_dash.php:297
-msgid "Published"
-msgstr "منتشر شده"
-
-#: dash/addons/includes/languages/trans_dash.php:298
-msgid "All draft posts"
-msgstr "تمامی خبر‌های پیش‌نویس"
-
-#: dash/addons/includes/languages/trans_dash.php:300
-msgid "All trash posts"
-msgstr "تمامی خبرهای حذف شده"
-
-#: dash/addons/includes/languages/trans_dash.php:305
-msgid ""
-"Recommended being more than 40 character and appear at the beginning of page "
-"content"
-msgstr ""
-"توصیه می‌شود حداقل بیش از ۴۰ کاراکتر بوده و شامل بخشی از مطالب موجود در خطوط "
-"ابتدایی نوشته باشد"
-
-#: dash/addons/includes/languages/trans_dash.php:307
-msgid "Subtitle show under title and used on press websites"
-msgstr ""
-"زیرعنوان یا سوتیتر معمولا در زیر عنوان اصلی نمایش داده شده و برای سایت‌های خبری "
-"کاربرد دارد"
-
-#: dash/addons/includes/languages/trans_dash.php:310
-msgid "Url of this post."
-msgstr "آدرس این نوشته."
-
-#: dash/addons/includes/languages/trans_dash.php:311
-msgid "You can change by set slug and category or parent for this post"
-msgstr ""
-"شما می‌توانید با تنظیم نامک بخش آخر آدرس و با تغییر دسته‌بندی در اخبار یا والد در "
-"صفحات آن را برای این صفحه سفارشی کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:314
-msgid "Allow change default publish date"
-msgstr "اجازه تغییر تاریخ انتشار پیش‌فرض"
-
-#: dash/addons/includes/languages/trans_dash.php:315
-msgid "Default is now"
-msgstr "به صورت پیشفرض تاریخ امروز"
-
-#: dash/addons/includes/languages/trans_dash.php:316
-msgid "Publish time"
-msgstr "زمان انتشار"
-
-#: dash/addons/includes/languages/trans_dash.php:317
-msgid "Add to gallery"
-msgstr "افزودن به گالری تصاویر"
-
-#: dash/addons/includes/languages/trans_dash.php:320
-msgid "You can publish in another language"
-msgstr "شما می‌توانید در زبان دیگری آن را منتشر کنید"
-
 #: dash/addons/includes/languages/trans_dash.php:322
 msgid "Master"
 msgstr "کارشناسی ارشد"
 
-#: dash/addons/includes/languages/trans_dash.php:324
-msgid "Click on special tags to use this depending on your website design"
-msgstr "بسته به طراحی وب‌سایت با کلیک روی کلیدواژه خاص از ویژگی‌های آن استفاده کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:329
-msgid "Featured Image"
-msgstr "تصویر شاخص"
-
-#: dash/addons/includes/languages/trans_dash.php:331
-msgid "Gallery"
-msgstr "گالری"
-
-#: dash/addons/includes/languages/trans_dash.php:332
-msgid "Click to download"
-msgstr "برای دانلود کلیک کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:333
-msgid "Video"
-msgstr ""
-
-#: dash/addons/includes/languages/trans_dash.php:334
-msgid "MP3"
-msgstr "ام‌پی‌تری"
-
-#: dash/addons/includes/languages/trans_dash.php:335
-msgid "PDF"
-msgstr ""
-
-#: dash/addons/includes/languages/trans_dash.php:336
-msgid "Without preview"
-msgstr "بدون پیش‌نمایش"
-
 #: dash/addons/includes/languages/trans_dash.php:343
 msgid "Files"
 msgstr ""
-
-#: dash/addons/includes/languages/trans_dash.php:347
-#: dash/addons/includes/languages/trans_static.php:938
-#: dash/addons/includes/languages/trans_static.php:980
-msgid "SMS"
-msgstr "پیام کوتاه"
-
-#: dash/addons/includes/languages/trans_dash.php:348
-msgid "Quick send"
-msgstr "ارسال سریع"
-
-#: dash/addons/includes/languages/trans_dash.php:349
-msgid "Templates"
-msgstr "الگوها"
-
-#: dash/addons/includes/languages/trans_dash.php:406
-msgid "Toggle side bar"
-msgstr "تغییر وضعیت نوار کناری"
-
-#: dash/addons/includes/languages/trans_dash.php:407
-msgid "You can save side bar status"
-msgstr "شما می‌توانید وضعیت نوار کناری را تغییر دهید"
-
-#: dash/addons/includes/languages/trans_dash.php:408
-msgid "Are your need side bar?"
-msgstr "شما نیاز به نمایش نوار کناری دارید؟"
-
-#: dash/addons/includes/languages/trans_dash.php:411
-msgid "To change your password"
-msgstr "برای تغییر کلمه عبور خود"
-
-#: dash/addons/includes/languages/trans_dash.php:412
-msgid "Click here"
-msgstr "اینجا کلیک کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:413
-msgid "Delete your account"
-msgstr "حذف حساب کاربری خود"
-
-#: dash/addons/includes/languages/trans_dash.php:414
-msgid "Password not set, enter to set it!"
-msgstr "گذرواژه تنظیم نشده است، برای تنظیم آن وارد شوید!"
-
-#: dash/addons/includes/languages/trans_dash.php:460
-msgid "Test coding function"
-msgstr "بررسی تابع کدینگ"
-
-#: dash/addons/includes/languages/trans_dash.php:543
-msgid "Submit this form carefully"
-msgstr "این را با احتیاط بفشارید"
-
-#: dash/addons/includes/languages/trans_dash.php:545
-msgid "Press it if you are sure!"
-msgstr "اگر مطمئن هستید، بفشارید!"
-
-#: dash/addons/includes/languages/trans_dash.php:546
-msgid "Update All"
-msgstr "بروزرسانی همه"
-
-#: dash/addons/includes/languages/trans_dash.php:547
-msgid "Last update"
-msgstr ""
-
-#: dash/addons/includes/languages/trans_dash.php:548
-msgid "Current Version"
-msgstr "نسخه فعلی"
-
-#: dash/addons/includes/languages/trans_dash.php:549
-msgid "Commits"
-msgstr "کامیت‌ها"
-
-#: dash/addons/includes/languages/trans_dash.php:550
-msgid "Do it if you know it"
-msgstr "اگر می‌دانید انجامش دهید"
-
-#: dash/addons/includes/languages/trans_dash.php:551
-msgid "Update Dash Repository"
-msgstr "بروزرسانی مخزن دش"
-
-#: dash/addons/includes/languages/trans_dash.php:552
-msgid "Dash Engine Location"
-msgstr "محل قرارگیری موتور دش"
-
-#: dash/addons/includes/languages/trans_dash.php:553
-msgid "Update Repository"
-msgstr "بروزرسانی مخزن"
-
-#: dash/addons/includes/languages/trans_dash.php:554
-msgid "Project database"
-msgstr "دیتابیس پروژه"
-
-#: dash/addons/includes/languages/trans_dash.php:555
-msgid "Addon Database"
-msgstr "دیتابیس افزونه"
-
-#: dash/addons/includes/languages/trans_dash.php:562
-msgid "Run cronjob for this service"
-msgstr "اجرای کرون جاب برای این سرویس"
-
-#: dash/addons/includes/languages/trans_dash.php:610
-msgid "You have another database for logs"
-msgstr "شما یک دیتابیس دیگر هم برای لاگ‌ها دارید"
-
-#: dash/addons/includes/languages/trans_dash.php:611
-msgid "Click for create backup from log database"
-msgstr "برای پشتیبان‌گیری از دیتابیس لاگ‌ها کلیک کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:636
-msgid "Cronjob"
-msgstr "کرون جاب"
-
-#: dash/addons/includes/languages/trans_dash.php:639
-msgid "Short URL"
-msgstr "لینک کوتاه"
-
-#: dash/addons/includes/languages/trans_dash.php:669
-msgid "Extract All trans func"
-msgstr "استخراج توابع ترجمه در دش و پروژه جاری"
-
-#: dash/addons/includes/languages/trans_dash.php:696
-msgid "Click to toggle sidebar status"
-msgstr "برای تغییر وضعیت منوی کناری کلیک کنید"
-
-#: dash/addons/includes/languages/trans_dash.php:703
-msgid "You are supervisor!"
-msgstr "شما مدیر فنی سیستم هستید!"
-
-#: dash/addons/includes/languages/trans_dash.php:704
-msgid "Enter with another user"
-msgstr "ورود با کاربر دیگر"
-
-#: dash/addons/includes/languages/trans_dash.php:729
-msgid "Delete Account"
-msgstr "حذف حساب کاربری"
-
-#: dash/addons/includes/languages/trans_dash.php:732
-msgid "Sign in instead"
-msgstr "یا وارد شوید"
-
-#: dash/addons/includes/languages/trans_dash.php:734
-msgid "No account?"
-msgstr "حساب کاربری ندارید؟"
-
-#: dash/addons/includes/languages/trans_dash.php:735
-msgid "Create for yourself"
-msgstr "حساب‌کاربری خود را بسازید"
 
 #: dash/addons/includes/languages/trans_static.php:78
 msgid "error in field"
