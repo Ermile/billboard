@@ -1,0 +1,267 @@
+{%extends display.mvc%}
+
+{%block head_css%}
+ <link rel="stylesheet"       href="{{url.base}}/static/css/style-home.css" rel="stylesheet">
+{%if site.currentlang == 'en'%}
+ <link rel="stylesheet"       href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+{%endif%}
+{%endblock%}
+
+
+{%block body%}
+ <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="sf-list"></i></a>
+ <nav id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+   <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="sf-times"></i></a>
+   <li class="sidebar-brand"><a href="#top"  onclick = $("#menu-close").click(); >{{site.title}}</a></li>
+   <li><a href="#top" onclick = $("#menu-close").click();>{%trans "Home"%}</a></li>
+   <li><a href="#slogan" onclick = $("#menu-close").click();>{%trans "Slogan"%}</a></li>
+   <li><a href="#timeline" onclick = $("#menu-close").click();>{%trans "About"%}</a></li>
+   <li><a href="#contact" onclick = $("#menu-close").click();>{%trans "Contact"%}</a></li>
+   <hr />
+   <li><a href="https://github.com/Ermile/dash/" target="_blank">
+   {%trans "Check on Github"%}</a></li>
+   <li><a href="https://github.com/Ermile/dash/archive/master.zip" target="_blank">{%trans "Download Latest Version"%}</a></li>
+
+   <li class="langList">{%trans "Language List"%}</li>
+{%for key, lang in site.langlist if site.langlist|length >1 and site.currentlang != key|slice(0, 2)%}
+   <li ><a href="{{url.root}}{%if site.defaultLang != key|slice(0, 2) %}/{{key|slice(0, 2)}}{%endif%}" hreflang="{{key|slice(0, 2)}}" data-action>{{lang}}</a></li>
+{%endfor%}
+  </ul>
+ </nav>
+
+ <!-- Header -->
+ <header id="top" class="header">
+  <div class="text-vertical-center">
+   <h1>{{site.title | upper }}</h1>
+   <h3>{{site.desc}}</h3>
+   <br>
+   <a href="#slogan" class="btn btn-dark btn-lg">{%trans "Find Out More"%}</a>
+   <a href="https://github.com/Ermile/dash/" class="btn btn-dark btn-lg" target="_blank">{%trans "Check on Github"%}</a>
+  </div>
+ </header>
+
+
+ <!-- About -->
+ <section id="slogan" class="about">
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-12 text-center">
+     <h2>{{site.slogan}}</h2>
+    </div>
+   </div>
+   <!-- /.row -->
+  </div>
+  <!-- /.container -->
+ </section>
+
+ <!-- Callout -->
+ <aside class="callout">
+  <div class="text-vertical-center">
+   <h1>{%trans "Secure, Fast and Flexible"%}</h1>
+  </div>
+ </aside>
+
+ <!-- About Section -->
+ <section id="timeline">
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-12 text-center">
+     <h2 class="section-heading">{%trans "About"%}</h2>
+     <h3 class="section-subheading text-muted">{%trans "Our story in timeline"%}</h3>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-lg-12">
+     <ul class="timeline">
+      <li>
+       <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/static/images/home/about/friendship.jpg" alt="">
+       </div>
+       <div class="timeline-panel">
+        <div class="timeline-heading">
+         <h4>{%trans "2006-2010"%}</h4>
+         <h4 class="subheading">{%trans "Our Friendship Beginnings"%}</h4>
+        </div>
+        <div class="timeline-body">
+         <p class="text-muted">{%trans "We find each other in Iran national skills competition that knowns as"%} <a href="http://worldskills.org" target="_blank">{%trans "Worldskills"%}</a>. <br/><a href="http://evazzadeh.com" target="_blank">{%trans "Javad Evazzadeh Kakroudi"%}</a>, <a href="http://samansoltani.com" target="_blank">{%trans "Saman Soltani"%}</a>, <a href="https://github.com/baravak" target="_blank">{%trans "Hasan Salehi Hajiabadi"%}</a> {%trans "and"%} <a href="http://pilevar.ir" target="_blank">{%trans "Omid Pilevar"%}</a></p>
+        </div>
+       </div>
+      </li>
+
+      <li class="timeline-inverted">
+       <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/static/images/home/about/saloos-born.jpg" alt="">
+       </div>
+       <div class="timeline-panel">
+        <div class="timeline-heading">
+         <h4>{%trans "2013"%}</h4>
+         <h4 class="subheading">{%trans "Framework is Born"%}</h4>
+        </div>
+        <div class="timeline-body">
+         <p class="text-muted">{%trans "Idea of create PHP framework was started"%}. {%trans "Hasan selected to create framework basics."%}.</p>
+        </div>
+       </div>
+      </li>
+
+      <li>
+       <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/static/images/home/about/rprb.jpg" alt="">
+       </div>
+       <div class="timeline-panel">
+        <div class="timeline-heading">
+         <h4>{%trans "November 2014"%}</h4>
+         <h4 class="subheading"><a href="http://rprb.ir">{%trans "First Service"%}</a></h4>
+        </div>
+        <div class="timeline-body">
+         <p class="text-muted">{%trans "First project is launching with this framework"%}</p>
+        </div>
+       </div>
+      </li>
+
+      <li class="timeline-inverted">
+       <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/static/images/home/about/ermile.jpg" alt="">
+       </div>
+       <div class="timeline-panel">
+        <div class="timeline-heading">
+         <h4>{%trans "September 2015"%}</h4>
+         <h4 class="subheading"><a href="https://ermile.com">{%trans "Ermile"%} &reg;</a></h4>
+        </div>
+        <div class="timeline-body">
+         <p class="text-muted">{%trans "We can doing hard job!"%} {%trans "We can register Ermile trademark:)"%}</p
+        </div>
+       </div>
+      </li>
+
+      <li>
+       <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/static/images/home/about/sarshomar.jpg" alt="">
+       </div>
+       <div class="timeline-panel">
+        <div class="timeline-heading">
+         <h4>{%trans "March 2017"%}</h4>
+         <h4 class="subheading"><a href="https://sarshomar.com">{%trans "Sarshomar Launched"%}</a></h4>
+        </div>
+        <div class="timeline-body">
+         <p class="text-muted">{%trans "Our first public, world class and enterprise project is released."%}</p>
+        </div>
+       </div>
+      </li>
+
+      <li class="timeline-inverted">
+       <div class="timeline-image">
+        <img class="img-circle img-responsive" src="/static/images/home/about/ermile.jpg" alt="">
+       </div>
+       <div class="timeline-panel">
+        <div class="timeline-heading">
+         <h4>{%trans "September 2017"%}</h4>
+         <h4 class="subheading"><a href="https://github.com/ermile/dash">{%trans "Rename to Dash"%}</a></h4>
+        </div>
+        <div class="timeline-body">
+         <p class="text-muted">{%trans "We decide to combine Saloos and some other subprojects to Dash!"%}</p>
+        </div>
+       </div>
+      </li>
+
+      <li class="timeline-inverted">
+       <div class="timeline-image">
+        <h4>{%trans "To be <br />continue..."%}</h4>
+       </div>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+ </section>
+
+
+ <!-- Call to Action -->
+ <aside class="call-to-action bg-primary">
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-12 text-center">
+     <a href="https://github.com/Ermile/dash/archive/master.zip" class="btn btn-lg btn-light">{%trans "Download Latest Version"%}</a>
+     <a href="https://github.com/Ermile/dash" class="btn btn-lg btn-dark" target="_blank">{%trans "Check on Github"%}</a>
+    </div>
+   </div>
+  </div>
+ </aside>
+
+
+ <!-- Map -->
+ <section id="contact" class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.188288698108!2d50.8768872152269!3d34.64994749344239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f93bc8771510471%3A0x3ef2e32aa59a7df6!2sErmile!5e0!3m2!1sen!2s!4v1519516366076" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen style="border:0"></iframe>
+ </section>
+
+
+ <!-- Footer -->
+ <footer class="text-center">
+  <div class="footer-above">
+   <div class="container">
+    <div class="row">
+     <div class="footer-col col-md-4">
+      <h3>{%trans "Location"%}</h3>
+      <p>{%trans "Qom, IRAN"%}<br>{%trans "+98 25 3650 5281"%}</p>
+     </div>
+     <div class="footer-col col-md-4">
+      <h3>{%trans "Another Languages"%}</h3>
+      <p>
+{%for key, mylang in lang.list if lang.list|length >1 and lang.current != key|slice(0, 2)%}
+     <a href="{{url.base}}{%if lang.default != key|slice(0, 2) %}/{{key|slice(0, 2)}}{%endif%}" hreflang="{{key|slice(0, 2)}}" data-action>{{mylang}}</a>
+{%endfor%}
+      </p>
+     </div>
+     <div class="footer-col col-md-4">
+      <h3>{%trans "About"%} {{site.title | upper }}</h3>
+      <p>{{site.title}} {%trans " is a free to use, open source PHP framework created by"%} <a href="https://ermile.com" target="_blank">{%trans "Ermile"%}</a>.</p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="footer-below">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-12">
+      {%trans "Copyright"%} &copy; {{site.title | upper }} {{"2013/01/01" | tdate('Y')}}-{{'now'|tdate('Y')}}
+     </div>
+    </div>
+   </div>
+  </div>
+ </footer>
+{%endblock%}
+
+
+
+{%block js%}
+
+ <script>
+ // Closes the sidebar menu
+ $("#menu-close").click(function(e) {
+  e.preventDefault();
+  $("#sidebar-wrapper").toggleClass("active");
+ });
+
+ // Opens the sidebar menu
+ $("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#sidebar-wrapper").toggleClass("active");
+ });
+
+ // Scrolls to the selected menu item on the page
+ $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+     $('html,body').animate({
+      scrollTop: target.offset().top
+     }, 1000);
+     return false;
+    }
+   }
+  });
+ });
+ </script>
+{%endblock%}
