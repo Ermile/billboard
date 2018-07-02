@@ -4,12 +4,15 @@ body{background-image:url("https://ermile.com/static/images/pattern/shattered_@2
 .ermile a{display:block;width:100%;}
 .ermile img{width:100%;margin:0 auto;vertical-align:middle;display:block;}
 .box{margin:0em auto ;width:70%;height:100%;}
-.box h1{    color:#10a1a6;font-size:4em;margin:0;display:inline-block;position:relative;line-height:2.5em;font-weight:600;}
+.box h1{color:#10a1a6;font-size:4em;margin:0;display:inline-block;position:relative;line-height:2.5em;font-weight:600;}
+.box .brand{max-width: 50px;display:inline-block;vertical-align:middle;margin:0 5px;padding:1px;border-radius:3px;background-color:#eee;transition:0.3s;}
+.box li{font-size:.7em;width:100%;text-align:right;margin:0em auto 1em;position:relative;float:left;transition:0.3s}
+.box li:hover{background-color: rgba(255,255,255,0.5);}
+.box li:hover .brand{background-color: #fff}
 .box h2{margin:0 .5em;display:inline-block;color:#414141;}
 .box h3{color:#888;margin:0 .5em;}
 .box ul{list-style:none;padding:0;}
 .box a{width:100%;display:block;}
-.box li{font-size:.7em;width:100%;text-align:right;margin:0em auto;position:relative;float:left;}
 footer{padding:20px 0;opacity:0.7;font-size:1.5em;background:#FFF;box-shadow:1px 1px 5px 0 #C4C5C6;position:fixed;bottom:0;right:0;left:0;}
 footer a{color:#00b6bb;}
 footer span{font-size:0.7em;}
