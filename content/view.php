@@ -18,6 +18,10 @@ class view
 		{
 			$myHost = gethostname();
 		}
+		if(isset($_SERVER['SERVER_ADDR']))
+		{
+			$myHost .= ' '. $_SERVER['SERVER_ADDR'];
+		}
 		\dash\data::myHost($myHost);
 
 		\dash\data::include_css(false);
