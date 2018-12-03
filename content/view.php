@@ -19,6 +19,9 @@ class view
 			$myHost = gethostname();
 		}
 		\dash\data::myHost($myHost);
+
+		\dash\data::include_css(false);
+		\dash\data::include_js(false);
 	}
 }
 ?>
