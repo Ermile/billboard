@@ -13,16 +13,21 @@ class view
 		\dash\data::page_special(true);
 		\dash\data::page_desc(\dash\data::site_desc(). ' | '. \dash\data::site_slogan());
 
+		// get host name
 		$myHost = '';
 		if(function_exists("gethostname"))
 		{
 			$myHost = gethostname();
 		}
+		\dash\data::myHost($myHost);
+
+		// get server ip
+		$myIP   = '';
 		if(isset($_SERVER['SERVER_ADDR']))
 		{
-			$myHost .= ' '. $_SERVER['SERVER_ADDR'];
+			$myIP .= ' '. $_SERVER['SERVER_ADDR'];
 		}
-		\dash\data::myHost($myHost);
+		\dash\data::myIP($myIP);
 
 		\dash\data::include_css(false);
 		\dash\data::include_js(false);
