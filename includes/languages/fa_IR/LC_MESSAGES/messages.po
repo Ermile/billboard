@@ -9422,7 +9422,7 @@ msgstr "نمایش دسته‌بندی‌ها در کنترل پنل"
 
 #: dash/addons/includes/languages/trans_static.php:449
 msgid "cpTagView"
-msgstr "نایش کلید‌واژه‌ها در کنترل پنل"
+msgstr "نمایش کلید‌واژه‌ها در کنترل پنل"
 
 #: dash/addons/includes/languages/trans_static.php:450
 msgid "cpCategoryEdit"
