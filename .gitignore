@@ -9,6 +9,9 @@ desktop.ini
 /public_html/sitemap
 /public_html/sitemap.xml
 
+/public_html/pma
+/public_html/phpmyadmin
+
 /includes/database/backup
 /includes/database/log
 /includes/database/version
