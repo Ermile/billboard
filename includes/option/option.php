@@ -14,6 +14,7 @@ self::$language =
 ];
 
 
-self::$config['debug'] = true;
+self::$config['debug'] = false;
+self::$url['freeSubdomain']   = true;
 
 ?>
