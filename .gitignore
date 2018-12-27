@@ -16,6 +16,8 @@ desktop.ini
 /includes/database/log
 /includes/database/version
 /includes/log
+*crontab.txt
+
 
 *sftp-config.json
 *.me.php
