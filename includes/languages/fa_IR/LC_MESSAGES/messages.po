@@ -10843,7 +10843,7 @@ msgstr "چهارشنبه"
 
 #: dash/addons/includes/languages/trans_static.php:880
 msgid "thursday"
-msgstr "سه شنبه"
+msgstr "پنج‌ شنبه"
 
 #: dash/addons/includes/languages/trans_static.php:881
 msgid "friday"
