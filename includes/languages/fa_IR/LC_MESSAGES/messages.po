@@ -8449,7 +8449,7 @@ msgstr "این عبارت در خبر ها استفاده شده و امکان �
 
 #: dash/addons/content_cp/terms/model.php:120
 msgid "Term successfully edited"
-msgstr "ترم با موفقتی ویرایش شد"
+msgstr "عبارت با موفقیت ویرایش شد"
 
 #: dash/addons/content_cp/terms/model.php:133
 msgid "Term successfully added"
